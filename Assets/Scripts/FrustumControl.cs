@@ -1,10 +1,7 @@
 using System;
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-using UnityEngine.UIElements;
-using UnityEngine.Events;
 
 public class FrustumControl : MonoBehaviour
 {
@@ -27,13 +24,27 @@ public class FrustumControl : MonoBehaviour
         inputDir_P.onEndEdit.AddListener(delegate { UpdateDir(); });
         inputDir_Y.onEndEdit.AddListener(delegate { UpdateDir(); });
         inputDir_R.onEndEdit.AddListener(delegate { UpdateDir(); });
+        
+        //run delayed start next
+        StartCoroutine(DelayedStart());
 
+    }
+
+
+    /// <summary>
+    /// Delayed start to allow VIOSO views to initialize before updating UI
+    /// </summary>
+    /// <returns></returns>
+    IEnumerator DelayedStart()
+    {
+        yield return new WaitForSeconds(1);
+        WriteCameraViewToUI();
     }
 
    
     void UpdateFOV()
     {
-        SetFrustum(targetCamera, float.Parse(inputFOV_L.text), float.Parse(inputFOV_R.text), float.Parse(inputFOV_T.text), float.Parse(inputFOV_B.text));
+        SetFrustum(targetCamera, float.Parse(inputFOV_L.text), float.Parse(inputFOV_R.text), float.Parse(inputFOV_B.text), float.Parse(inputFOV_T.text));
     }
 
     void UpdateDir()
@@ -78,5 +89,39 @@ public class FrustumControl : MonoBehaviour
         return m;
     }
 
-    
+
+    /// <summary>
+    /// Get the camera projection matrix, calculate its FOV values and write to UI
+    /// </summary>
+    public void WriteCameraViewToUI()
+    {
+        
+        inputDir_P.text = (-1f* targetCamera.transform.eulerAngles.x).ToString(); //match VIOSO coordinate system
+        inputDir_Y.text = targetCamera.transform.eulerAngles.y.ToString();
+        inputDir_R.text = targetCamera.transform.eulerAngles.z.ToString();
+
+        // Get projection matrix and calculate field of view values
+        Matrix4x4 projectionMatrix = targetCamera.projectionMatrix;
+
+        float near = 1f;
+
+        float left = -near * (projectionMatrix[0, 2] + 1) / projectionMatrix[0, 0];
+        float right = near * (1 - projectionMatrix[0, 2]) / projectionMatrix[0, 0];
+        float bottom = -near * (projectionMatrix[1, 2] + 1) / projectionMatrix[1, 1];
+        float top = near * (1 - projectionMatrix[1, 2]) / projectionMatrix[1, 1];
+
+        // Calculate FOVs in degrees
+        float leftFOV = Mathf.Atan(left / near) * Mathf.Rad2Deg *-1f; // all angles positive in UI
+        float rightFOV = Mathf.Atan(right / near) * Mathf.Rad2Deg ;
+        float bottomFOV = Mathf.Atan(bottom / near) * Mathf.Rad2Deg *-1f;
+        float topFOV = Mathf.Atan(top / near) * Mathf.Rad2Deg ;
+
+        // Write to UI
+        inputFOV_B.text = bottomFOV.ToString();
+        inputFOV_T.text = topFOV.ToString();
+        inputFOV_L.text = leftFOV.ToString();
+        inputFOV_R.text = rightFOV.ToString();
+
+
+    }
 }
