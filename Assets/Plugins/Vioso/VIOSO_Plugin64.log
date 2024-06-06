@@ -1,0 +1,2257 @@
+
+
+VIOSO Unity Plugin 1.1.0 loaded
+VIOSO Unity Plugin PluginLoad
+ Loading VIOSOWarpBlend ...
+Process location: D:\Unity\2022.3.9f1\Editor\Unity.exe
+Plugin location: D:\Projects (Unity)\8_cameras\Assets\Plugins\Vioso\VIOSO_Plugin64.dll
+Try VIOSOWarpBlend location: D:\Projects (Unity)\8_cameras\Assets\Plugins\Vioso\VIOSOWarpBlend64.dll
+11:30:59 Warper create issued "cam2" as #1
+11:30:59 
+Ini path:
+11:30:59 --- BEGIN SESSION --- BEGIN SESSION --- BEGIN SESSION --- BEGIN SESSION ---
+
+11:30:59  D3D11 - Device found.
+
+11:30:59 Warper create issued "cam1" as #2
+11:30:59 
+Ini path:
+11:30:59  D3D11 - Device found.
+
+11:30:59 D:\Projects (Unity)\8_cameras\Assets\Plugins\Vioso\VIOSOWarpBlend64.dll.
+
+11:30:59 D:\Unity\2022.3.9f1\Editor\Unity.exe.
+
+11:30:59 DX11-Warper "cam8" created. Logging level is 2
+Evaluated parameters from
+D:\Projects (Unity)\8_cameras\Assets\Plugins\Vioso\VIOSOWarpBlend.ini:
+calibFile=Calibration.vwf
+calibIndex=0
+calibSplit=[0,0,0,0]
+bTurnWithView=0
+bDoNotBlend=0
+eyePointProvider=
+eyePointProviderParam=
+eye=[0.00000, 0.00000, 0.00000]
+near=0.15000
+far=1000.00000
+bBicubic=0
+bUseGL110=0
+bPartialInput=0
+splice=0
+trans=[1000.00000, 0.00000, 0.00000, 0.00000; 0.00000, 1000.00000, 0.00000, 0.00000; 0.00000, 0.00000, -1000.00000, 0.00000; 0.00000, 0.00000, 0.00000, 1.00000]
+autoViewC=1.00000;
+bAutoView=1;
+dir=[0.00000, 0.00000, 0.00000]
+fov=[35.00000, 30.00000, 35.00000, 30.00000]
+screen=1.00000
+optimalRes=[0, 0]
+optimalRect=[0, 0, 0, 0]
+port=0
+address=0.0.0.0
+mouseMode=0
+bDoNoBlack=0
+
+11:30:59 Warper create issued "cam6" as #3
+11:30:59 
+Ini path:
+11:30:59 Open "D:\Projects (Unity)\8_cameras\Assets\Plugins\Vioso\Calibration.vwf"...
+
+11:30:59  D3D11 - Device found.
+
+11:30:59 Warper create issued "cam4" as #4
+11:30:59 
+Ini path:
+11:30:59  D3D11 - Device found.
+
+11:30:59 Warper create issued "cam5" as #5
+11:30:59 
+Ini path:
+11:30:59  D3D11 - Device found.
+
+11:30:59 Load warp map 0...
+
+11:30:59 Warper create issued "cam7" as #6
+11:30:59 
+Ini path:
+11:30:59  D3D11 - Device found.
+
+11:30:59 Warper create issued "cam3" as #7
+11:30:59 
+Ini path:
+11:30:59  D3D11 - Device found.
+
+11:30:59 Warp map successfully loaded, new dataset (1) 1920x1080 created.
+
+11:30:59 Load bitmap for dataset 1...
+
+11:30:59 Blend image set.
+
+11:30:59 Load bitmap for dataset 1...
+
+11:30:59 Black image set.
+
+11:30:59 Load warp map 1...
+
+11:30:59 Warp map successfully added, new dataset (2) 1280x800 created, data loading skipped.
+
+11:30:59 Load bitmap for dataset 2...
+
+11:30:59 Load bitmap for dataset 2...
+
+11:30:59 LoadVWF: Successfully added 2 datasets to the mappings set.
+
+11:30:59 Mapping Info:
+    Hostname: "localhost"
+  Devicename: "Marits Beamer"
+   SplitInfo: (0,0) of (0,0)
+  Resolution: 1920x1080
+    Position: 1920,0
+
+11:30:59 2D data found in mapping. Using FIXED EYE settings.
+
+11:30:59 left-handedness detected.
+
+11:30:59 INFO: AutoView for channel [cam8] yields:
+optimalRes=[4992, 3000]
+optimalRect=[423, 982, 2668, 2982]
+
+11:30:59 INFO: Output buffer found. Viewport is 2122x1352.
+
+11:30:59 WARNING: Render target size does not match mapping size. This will produce sampling artefacts.
+11:30:59 SUCCESS: DX11-Warper initialized.
+
+11:30:59 Successfully created warper #0
+
+11:30:59 2024/01/29 VIOSOWarpBlend API 1.6.16.87.
+
+11:30:59 D:\Projects (Unity)\8_cameras\Assets\Plugins\Vioso\VIOSOWarpBlend64.dll.
+
+11:30:59 D:\Unity\2022.3.9f1\Editor\Unity.exe.
+
+11:30:59 DX11-Warper "cam2" created. Logging level is 2
+Evaluated parameters from
+D:\Projects (Unity)\8_cameras\Assets\Plugins\Vioso\VIOSOWarpBlend.ini:
+calibFile=Calibration.vwf
+calibIndex=1
+calibSplit=[0,0,0,0]
+bTurnWithView=0
+bDoNotBlend=0
+eyePointProvider=
+eyePointProviderParam=
+eye=[0.00000, 0.00000, 0.00000]
+near=0.15000
+far=1000.00000
+bBicubic=0
+bUseGL110=0
+bPartialInput=0
+splice=0
+trans=[1000.00000, 0.00000, 0.00000, 0.00000; 0.00000, 1000.00000, 0.00000, 0.00000; 0.00000, 0.00000, -1000.00000, 0.00000; 0.00000, 0.00000, 0.00000, 1.00000]
+autoViewC=1.00000;
+bAutoView=1;
+dir=[0.00000, 0.00000, 0.00000]
+fov=[35.00000, 30.00000, 35.00000, 30.00000]
+screen=1.00000
+optimalRes=[0, 0]
+optimalRect=[0, 0, 0, 0]
+port=0
+address=0.0.0.0
+mouseMode=0
+bDoNoBlack=0
+
+11:30:59 Open "D:\Projects (Unity)\8_cameras\Assets\Plugins\Vioso\Calibration.vwf"...
+
+11:30:59 File found and openend.
+
+11:30:59 File contains 6 chunks.
+
+11:30:59 Load warp map 0...
+
+11:30:59 Warp map successfully added, new dataset (1) 1920x1080 created, data loading skipped.
+
+11:30:59 Load bitmap for dataset 1...
+
+11:30:59 Load bitmap for dataset 1...
+
+11:30:59 Load warp map 1...
+
+11:30:59 Warp map successfully loaded, new dataset (2) 1280x800 created.
+
+11:30:59 Load bitmap for dataset 2...
+
+11:30:59 Blend image set.
+
+11:30:59 Load bitmap for dataset 2...
+
+11:30:59 Black image set.
+
+11:30:59 LoadVWF: Successfully added 2 datasets to the mappings set.
+
+11:30:59 Mapping Info:
+    Hostname: "localhost"
+  Devicename: "D4 Optoma WXGA (OTM0550)"
+   SplitInfo: (0,0) of (0,0)
+  Resolution: 1280x800
+    Position: 3840,0
+
+11:30:59 2D data found in mapping. Using FIXED EYE settings.
+
+11:30:59 left-handedness detected.
+
+11:30:59 INFO: AutoView for channel [cam2] yields:
+optimalRes=[2922, 1891]
+optimalRect=[680, 228, 1552, 1038]
+
+11:30:59 INFO: Output buffer found. Viewport is 2122x1352.
+
+11:30:59 WARNING: Render target size does not match mapping size. This will produce sampling artefacts.
+11:30:59 SUCCESS: DX11-Warper initialized.
+
+11:30:59 Successfully created warper #1
+
+11:31:00 2024/01/29 VIOSOWarpBlend API 1.6.16.87.
+
+11:31:00 D:\Projects (Unity)\8_cameras\Assets\Plugins\Vioso\VIOSOWarpBlend64.dll.
+
+11:31:00 D:\Unity\2022.3.9f1\Editor\Unity.exe.
+
+11:31:00 DX11-Warper "cam1" created. Logging level is 2
+Evaluated parameters from
+D:\Projects (Unity)\8_cameras\Assets\Plugins\Vioso\VIOSOWarpBlend.ini:
+calibFile=Calibration.vwf
+calibIndex=0
+calibSplit=[0,0,0,0]
+bTurnWithView=0
+bDoNotBlend=0
+eyePointProvider=
+eyePointProviderParam=
+eye=[0.00000, 0.00000, 0.00000]
+near=0.15000
+far=1000.00000
+bBicubic=0
+bUseGL110=0
+bPartialInput=0
+splice=0
+trans=[1000.00000, 0.00000, 0.00000, 0.00000; 0.00000, 1000.00000, 0.00000, 0.00000; 0.00000, 0.00000, -1000.00000, 0.00000; 0.00000, 0.00000, 0.00000, 1.00000]
+autoViewC=1.00000;
+bAutoView=1;
+dir=[0.00000, 0.00000, 0.00000]
+fov=[35.00000, 30.00000, 35.00000, 30.00000]
+screen=1.00000
+optimalRes=[0, 0]
+optimalRect=[0, 0, 0, 0]
+port=0
+address=0.0.0.0
+mouseMode=0
+bDoNoBlack=0
+
+11:31:00 Open "D:\Projects (Unity)\8_cameras\Assets\Plugins\Vioso\Calibration.vwf"...
+
+11:31:00 File found and openend.
+
+11:31:00 File contains 6 chunks.
+
+11:31:00 Load warp map 0...
+
+11:31:00 Warp map successfully loaded, new dataset (1) 1920x1080 created.
+
+11:31:00 Load bitmap for dataset 1...
+
+11:31:00 Blend image set.
+
+11:31:00 Load bitmap for dataset 1...
+
+11:31:00 Black image set.
+
+11:31:00 Load warp map 1...
+
+11:31:00 Warp map successfully added, new dataset (2) 1280x800 created, data loading skipped.
+
+11:31:00 Load bitmap for dataset 2...
+
+11:31:00 Load bitmap for dataset 2...
+
+11:31:00 LoadVWF: Successfully added 2 datasets to the mappings set.
+
+11:31:00 Mapping Info:
+    Hostname: "localhost"
+  Devicename: "Marits Beamer"
+   SplitInfo: (0,0) of (0,0)
+  Resolution: 1920x1080
+    Position: 1920,0
+
+11:31:00 2D data found in mapping. Using FIXED EYE settings.
+
+11:31:00 left-handedness detected.
+
+11:31:00 INFO: AutoView for channel [cam1] yields:
+optimalRes=[4992, 3000]
+optimalRect=[423, 982, 2668, 2982]
+
+11:31:00 INFO: Output buffer found. Viewport is 2122x1352.
+
+11:31:00 WARNING: Render target size does not match mapping size. This will produce sampling artefacts.
+11:31:00 SUCCESS: DX11-Warper initialized.
+
+11:31:00 Successfully created warper #2
+
+11:31:00 2024/01/29 VIOSOWarpBlend API 1.6.16.87.
+
+11:31:00 D:\Projects (Unity)\8_cameras\Assets\Plugins\Vioso\VIOSOWarpBlend64.dll.
+
+11:31:00 D:\Unity\2022.3.9f1\Editor\Unity.exe.
+
+11:31:00 DX11-Warper "cam6" created. Logging level is 2
+Evaluated parameters from
+D:\Projects (Unity)\8_cameras\Assets\Plugins\Vioso\VIOSOWarpBlend.ini:
+calibFile=Calibration.vwf
+calibIndex=0
+calibSplit=[0,0,0,0]
+bTurnWithView=0
+bDoNotBlend=0
+eyePointProvider=
+eyePointProviderParam=
+eye=[0.00000, 0.00000, 0.00000]
+near=0.15000
+far=1000.00000
+bBicubic=0
+bUseGL110=0
+bPartialInput=0
+splice=0
+trans=[1000.00000, 0.00000, 0.00000, 0.00000; 0.00000, 1000.00000, 0.00000, 0.00000; 0.00000, 0.00000, -1000.00000, 0.00000; 0.00000, 0.00000, 0.00000, 1.00000]
+autoViewC=1.00000;
+bAutoView=1;
+dir=[0.00000, 0.00000, 0.00000]
+fov=[35.00000, 30.00000, 35.00000, 30.00000]
+screen=1.00000
+optimalRes=[0, 0]
+optimalRect=[0, 0, 0, 0]
+port=0
+address=0.0.0.0
+mouseMode=0
+bDoNoBlack=0
+
+11:31:00 Open "D:\Projects (Unity)\8_cameras\Assets\Plugins\Vioso\Calibration.vwf"...
+
+11:31:00 File found and openend.
+
+11:31:00 File contains 6 chunks.
+
+11:31:00 Load warp map 0...
+
+11:31:00 Warp map successfully loaded, new dataset (1) 1920x1080 created.
+
+11:31:00 Load bitmap for dataset 1...
+
+11:31:00 Blend image set.
+
+11:31:00 Load bitmap for dataset 1...
+
+11:31:00 Black image set.
+
+11:31:00 Load warp map 1...
+
+11:31:00 Warp map successfully added, new dataset (2) 1280x800 created, data loading skipped.
+
+11:31:00 Load bitmap for dataset 2...
+
+11:31:00 Load bitmap for dataset 2...
+
+11:31:00 LoadVWF: Successfully added 2 datasets to the mappings set.
+
+11:31:00 Mapping Info:
+    Hostname: "localhost"
+  Devicename: "Marits Beamer"
+   SplitInfo: (0,0) of (0,0)
+  Resolution: 1920x1080
+    Position: 1920,0
+
+11:31:00 2D data found in mapping. Using FIXED EYE settings.
+
+11:31:00 left-handedness detected.
+
+11:31:00 INFO: AutoView for channel [cam6] yields:
+optimalRes=[4992, 3000]
+optimalRect=[423, 982, 2668, 2982]
+
+11:31:00 INFO: Output buffer found. Viewport is 2122x1352.
+
+11:31:00 WARNING: Render target size does not match mapping size. This will produce sampling artefacts.
+11:31:00 SUCCESS: DX11-Warper initialized.
+
+11:31:00 Successfully created warper #3
+
+11:31:00 2024/01/29 VIOSOWarpBlend API 1.6.16.87.
+
+11:31:00 D:\Projects (Unity)\8_cameras\Assets\Plugins\Vioso\VIOSOWarpBlend64.dll.
+
+11:31:00 D:\Unity\2022.3.9f1\Editor\Unity.exe.
+
+11:31:00 DX11-Warper "cam4" created. Logging level is 2
+Evaluated parameters from
+D:\Projects (Unity)\8_cameras\Assets\Plugins\Vioso\VIOSOWarpBlend.ini:
+calibFile=Calibration.vwf
+calibIndex=0
+calibSplit=[0,0,0,0]
+bTurnWithView=0
+bDoNotBlend=0
+eyePointProvider=
+eyePointProviderParam=
+eye=[0.00000, 0.00000, 0.00000]
+near=0.15000
+far=1000.00000
+bBicubic=0
+bUseGL110=0
+bPartialInput=0
+splice=0
+trans=[1000.00000, 0.00000, 0.00000, 0.00000; 0.00000, 1000.00000, 0.00000, 0.00000; 0.00000, 0.00000, -1000.00000, 0.00000; 0.00000, 0.00000, 0.00000, 1.00000]
+autoViewC=1.00000;
+bAutoView=1;
+dir=[0.00000, 0.00000, 0.00000]
+fov=[35.00000, 30.00000, 35.00000, 30.00000]
+screen=1.00000
+optimalRes=[0, 0]
+optimalRect=[0, 0, 0, 0]
+port=0
+address=0.0.0.0
+mouseMode=0
+bDoNoBlack=0
+
+11:31:00 Open "D:\Projects (Unity)\8_cameras\Assets\Plugins\Vioso\Calibration.vwf"...
+
+11:31:00 File found and openend.
+
+11:31:00 File contains 6 chunks.
+
+11:31:00 Load warp map 0...
+
+11:31:00 Warp map successfully loaded, new dataset (1) 1920x1080 created.
+
+11:31:00 Load bitmap for dataset 1...
+
+11:31:00 Blend image set.
+
+11:31:00 Load bitmap for dataset 1...
+
+11:31:00 Black image set.
+
+11:31:00 Load warp map 1...
+
+11:31:00 Warp map successfully added, new dataset (2) 1280x800 created, data loading skipped.
+
+11:31:00 Load bitmap for dataset 2...
+
+11:31:00 Load bitmap for dataset 2...
+
+11:31:00 LoadVWF: Successfully added 2 datasets to the mappings set.
+
+11:31:00 Mapping Info:
+    Hostname: "localhost"
+  Devicename: "Marits Beamer"
+   SplitInfo: (0,0) of (0,0)
+  Resolution: 1920x1080
+    Position: 1920,0
+
+11:31:00 2D data found in mapping. Using FIXED EYE settings.
+
+11:31:00 left-handedness detected.
+
+11:31:00 INFO: AutoView for channel [cam4] yields:
+optimalRes=[4992, 3000]
+optimalRect=[423, 982, 2668, 2982]
+
+11:31:00 INFO: Output buffer found. Viewport is 2122x1352.
+
+11:31:00 WARNING: Render target size does not match mapping size. This will produce sampling artefacts.
+11:31:00 SUCCESS: DX11-Warper initialized.
+
+11:31:00 Successfully created warper #4
+
+11:31:00 2024/01/29 VIOSOWarpBlend API 1.6.16.87.
+
+11:31:00 D:\Projects (Unity)\8_cameras\Assets\Plugins\Vioso\VIOSOWarpBlend64.dll.
+
+11:31:00 D:\Unity\2022.3.9f1\Editor\Unity.exe.
+
+11:31:00 DX11-Warper "cam5" created. Logging level is 2
+Evaluated parameters from
+D:\Projects (Unity)\8_cameras\Assets\Plugins\Vioso\VIOSOWarpBlend.ini:
+calibFile=Calibration.vwf
+calibIndex=0
+calibSplit=[0,0,0,0]
+bTurnWithView=0
+bDoNotBlend=0
+eyePointProvider=
+eyePointProviderParam=
+eye=[0.00000, 0.00000, 0.00000]
+near=0.15000
+far=1000.00000
+bBicubic=0
+bUseGL110=0
+bPartialInput=0
+splice=0
+trans=[1000.00000, 0.00000, 0.00000, 0.00000; 0.00000, 1000.00000, 0.00000, 0.00000; 0.00000, 0.00000, -1000.00000, 0.00000; 0.00000, 0.00000, 0.00000, 1.00000]
+autoViewC=1.00000;
+bAutoView=1;
+dir=[0.00000, 0.00000, 0.00000]
+fov=[35.00000, 30.00000, 35.00000, 30.00000]
+screen=1.00000
+optimalRes=[0, 0]
+optimalRect=[0, 0, 0, 0]
+port=0
+address=0.0.0.0
+mouseMode=0
+bDoNoBlack=0
+
+11:31:00 Open "D:\Projects (Unity)\8_cameras\Assets\Plugins\Vioso\Calibration.vwf"...
+
+11:31:00 File found and openend.
+
+11:31:00 File contains 6 chunks.
+
+11:31:01 Load warp map 0...
+
+11:31:01 Warp map successfully loaded, new dataset (1) 1920x1080 created.
+
+11:31:01 Load bitmap for dataset 1...
+
+11:31:01 Blend image set.
+
+11:31:01 Load bitmap for dataset 1...
+
+11:31:01 Black image set.
+
+11:31:01 Load warp map 1...
+
+11:31:01 Warp map successfully added, new dataset (2) 1280x800 created, data loading skipped.
+
+11:31:01 Load bitmap for dataset 2...
+
+11:31:01 Load bitmap for dataset 2...
+
+11:31:01 LoadVWF: Successfully added 2 datasets to the mappings set.
+
+11:31:01 Mapping Info:
+    Hostname: "localhost"
+  Devicename: "Marits Beamer"
+   SplitInfo: (0,0) of (0,0)
+  Resolution: 1920x1080
+    Position: 1920,0
+
+11:31:01 2D data found in mapping. Using FIXED EYE settings.
+
+11:31:01 left-handedness detected.
+
+11:31:01 INFO: AutoView for channel [cam5] yields:
+optimalRes=[4992, 3000]
+optimalRect=[423, 982, 2668, 2982]
+
+11:31:01 INFO: Output buffer found. Viewport is 2122x1352.
+
+11:31:01 WARNING: Render target size does not match mapping size. This will produce sampling artefacts.
+11:31:01 SUCCESS: DX11-Warper initialized.
+
+11:31:01 Successfully created warper #5
+
+11:31:01 2024/01/29 VIOSOWarpBlend API 1.6.16.87.
+
+11:31:01 D:\Projects (Unity)\8_cameras\Assets\Plugins\Vioso\VIOSOWarpBlend64.dll.
+
+11:31:01 D:\Unity\2022.3.9f1\Editor\Unity.exe.
+
+11:31:01 DX11-Warper "cam7" created. Logging level is 2
+Evaluated parameters from
+D:\Projects (Unity)\8_cameras\Assets\Plugins\Vioso\VIOSOWarpBlend.ini:
+calibFile=Calibration.vwf
+calibIndex=0
+calibSplit=[0,0,0,0]
+bTurnWithView=0
+bDoNotBlend=0
+eyePointProvider=
+eyePointProviderParam=
+eye=[0.00000, 0.00000, 0.00000]
+near=0.15000
+far=1000.00000
+bBicubic=0
+bUseGL110=0
+bPartialInput=0
+splice=0
+trans=[1000.00000, 0.00000, 0.00000, 0.00000; 0.00000, 1000.00000, 0.00000, 0.00000; 0.00000, 0.00000, -1000.00000, 0.00000; 0.00000, 0.00000, 0.00000, 1.00000]
+autoViewC=1.00000;
+bAutoView=1;
+dir=[0.00000, 0.00000, 0.00000]
+fov=[35.00000, 30.00000, 35.00000, 30.00000]
+screen=1.00000
+optimalRes=[0, 0]
+optimalRect=[0, 0, 0, 0]
+port=0
+address=0.0.0.0
+mouseMode=0
+bDoNoBlack=0
+
+11:31:01 Open "D:\Projects (Unity)\8_cameras\Assets\Plugins\Vioso\Calibration.vwf"...
+
+11:31:01 File found and openend.
+
+11:31:01 File contains 6 chunks.
+
+11:31:01 Load warp map 0...
+
+11:31:01 Warp map successfully loaded, new dataset (1) 1920x1080 created.
+
+11:31:01 Load bitmap for dataset 1...
+
+11:31:01 Blend image set.
+
+11:31:01 Load bitmap for dataset 1...
+
+11:31:01 Black image set.
+
+11:31:01 Load warp map 1...
+
+11:31:01 Warp map successfully added, new dataset (2) 1280x800 created, data loading skipped.
+
+11:31:01 Load bitmap for dataset 2...
+
+11:31:01 Load bitmap for dataset 2...
+
+11:31:01 LoadVWF: Successfully added 2 datasets to the mappings set.
+
+11:31:01 Mapping Info:
+    Hostname: "localhost"
+  Devicename: "Marits Beamer"
+   SplitInfo: (0,0) of (0,0)
+  Resolution: 1920x1080
+    Position: 1920,0
+
+11:31:01 2D data found in mapping. Using FIXED EYE settings.
+
+11:31:01 left-handedness detected.
+
+11:31:01 INFO: AutoView for channel [cam7] yields:
+optimalRes=[4992, 3000]
+optimalRect=[423, 982, 2668, 2982]
+
+11:31:01 INFO: Output buffer found. Viewport is 2122x1352.
+
+11:31:01 WARNING: Render target size does not match mapping size. This will produce sampling artefacts.
+11:31:01 SUCCESS: DX11-Warper initialized.
+
+11:31:01 Successfully created warper #6
+
+11:31:01 2024/01/29 VIOSOWarpBlend API 1.6.16.87.
+
+11:31:01 D:\Projects (Unity)\8_cameras\Assets\Plugins\Vioso\VIOSOWarpBlend64.dll.
+
+11:31:01 D:\Unity\2022.3.9f1\Editor\Unity.exe.
+
+11:31:01 DX11-Warper "cam3" created. Logging level is 2
+Evaluated parameters from
+D:\Projects (Unity)\8_cameras\Assets\Plugins\Vioso\VIOSOWarpBlend.ini:
+calibFile=Calibration.vwf
+calibIndex=0
+calibSplit=[0,0,0,0]
+bTurnWithView=0
+bDoNotBlend=0
+eyePointProvider=
+eyePointProviderParam=
+eye=[0.00000, 0.00000, 0.00000]
+near=0.15000
+far=1000.00000
+bBicubic=0
+bUseGL110=0
+bPartialInput=0
+splice=0
+trans=[1000.00000, 0.00000, 0.00000, 0.00000; 0.00000, 1000.00000, 0.00000, 0.00000; 0.00000, 0.00000, -1000.00000, 0.00000; 0.00000, 0.00000, 0.00000, 1.00000]
+autoViewC=1.00000;
+bAutoView=1;
+dir=[0.00000, 0.00000, 0.00000]
+fov=[35.00000, 30.00000, 35.00000, 30.00000]
+screen=1.00000
+optimalRes=[0, 0]
+optimalRect=[0, 0, 0, 0]
+port=0
+address=0.0.0.0
+mouseMode=0
+bDoNoBlack=0
+
+11:31:01 Open "D:\Projects (Unity)\8_cameras\Assets\Plugins\Vioso\Calibration.vwf"...
+
+11:31:01 File found and openend.
+
+11:31:01 File contains 6 chunks.
+
+11:31:01 Load warp map 0...
+
+11:31:01 Warp map successfully loaded, new dataset (1) 1920x1080 created.
+
+11:31:01 Load bitmap for dataset 1...
+
+11:31:01 Blend image set.
+
+11:31:01 Load bitmap for dataset 1...
+
+11:31:01 Black image set.
+
+11:31:01 Load warp map 1...
+
+11:31:01 Warp map successfully added, new dataset (2) 1280x800 created, data loading skipped.
+
+11:31:01 Load bitmap for dataset 2...
+
+11:31:01 Load bitmap for dataset 2...
+
+11:31:01 LoadVWF: Successfully added 2 datasets to the mappings set.
+
+11:31:01 Mapping Info:
+    Hostname: "localhost"
+  Devicename: "Marits Beamer"
+   SplitInfo: (0,0) of (0,0)
+  Resolution: 1920x1080
+    Position: 1920,0
+
+11:31:01 2D data found in mapping. Using FIXED EYE settings.
+
+11:31:01 left-handedness detected.
+
+11:31:01 INFO: AutoView for channel [cam3] yields:
+optimalRes=[4992, 3000]
+optimalRect=[423, 982, 2668, 2982]
+
+11:31:01 INFO: Output buffer found. Viewport is 2122x1352.
+
+11:31:01 WARNING: Render target size does not match mapping size. This will produce sampling artefacts.
+11:31:01 SUCCESS: DX11-Warper initialized.
+
+11:31:01 Successfully created warper #7
+
+11:31:01 WARNING: Render target size does not match mapping size. This will produce sampling artefacts.
+11:31:01 Input texture resource attached.
+11:31:07 Input texture resource attached.
+11:31:09 INFO: DX11-Warper destroyed.
+
+11:31:09 Warper destroyed.
+11:31:09 INFO: DX11-Warper destroyed.
+
+11:31:09 Warper destroyed.
+11:31:09 INFO: DX11-Warper destroyed.
+
+11:31:09 Warper destroyed.
+11:31:09 INFO: DX11-Warper destroyed.
+
+11:31:09 Warper destroyed.
+11:31:09 INFO: DX11-Warper destroyed.
+
+11:31:09 Warper destroyed.
+11:31:09 INFO: DX11-Warper destroyed.
+
+11:31:09 Warper destroyed.
+11:31:09 INFO: DX11-Warper destroyed.
+
+11:31:10 Warper destroyed.
+11:31:10 INFO: DX11-Warper destroyed.
+
+11:31:10 Warper destroyed.
+11:31:10 Unloading VIOSOWarpBlend
+
+
+ Loading VIOSOWarpBlend ...
+Process location: D:\Unity\2022.3.9f1\Editor\Unity.exe
+Plugin location: D:\Projects (Unity)\8_cameras\Assets\Plugins\Vioso\VIOSO_Plugin64.dll
+Try VIOSOWarpBlend location: D:\Projects (Unity)\8_cameras\Assets\Plugins\Vioso\VIOSOWarpBlend64.dll
+11:31:31 Warper create issued "cam2" as #1
+11:31:31 --- BEGIN SESSION --- BEGIN SESSION --- BEGIN SESSION --- BEGIN SESSION ---
+
+11:31:31 
+Ini path:
+11:31:31  D3D11 - Device found.
+
+11:31:31 Warper create issued "cam1" as #2
+11:31:31 
+Ini path:
+11:31:31  D3D11 - Device found.
+
+11:31:31 Warper create issued "cam6" as #3
+11:31:31 D:\Unity\2022.3.9f1\Editor\Unity.exe.
+
+11:31:31 DX11-Warper "cam8" created. Logging level is 2
+Evaluated parameters from
+D:\Projects (Unity)\8_cameras\Assets\Plugins\Vioso\VIOSOWarpBlend.ini:
+calibFile=Calibration.vwf
+calibIndex=0
+calibSplit=[0,0,0,0]
+bTurnWithView=0
+bDoNotBlend=0
+eyePointProvider=
+eyePointProviderParam=
+eye=[0.00000, 0.00000, 0.00000]
+near=0.15000
+far=1000.00000
+bBicubic=0
+bUseGL110=0
+bPartialInput=0
+splice=0
+trans=[1000.00000, 0.00000, 0.00000, 0.00000; 0.00000, 1000.00000, 0.00000, 0.00000; 0.00000, 0.00000, -1000.00000, 0.00000; 0.00000, 0.00000, 0.00000, 1.00000]
+autoViewC=1.00000;
+bAutoView=1;
+dir=[0.00000, 0.00000, 0.00000]
+fov=[35.00000, 30.00000, 35.00000, 30.00000]
+screen=1.00000
+optimalRes=[0, 0]
+optimalRect=[0, 0, 0, 0]
+port=0
+address=0.0.0.0
+mouseMode=0
+bDoNoBlack=0
+
+11:31:31 Open "D:\Projects (Unity)\8_cameras\Assets\Plugins\Vioso\Calibration.vwf"...
+
+11:31:31 File found and openend.
+
+11:31:31 File contains 6 chunks.
+
+11:31:31  D3D11 - Device found.
+
+11:31:31 Warper create issued "cam4" as #4
+11:31:31 
+Ini path:
+11:31:31  D3D11 - Device found.
+
+11:31:31 Warper create issued "cam5" as #5
+11:31:31 
+Ini path:
+11:31:31  D3D11 - Device found.
+
+11:31:31 Warper create issued "cam7" as #6
+11:31:31 
+Ini path:
+11:31:31  D3D11 - Device found.
+
+11:31:31 Warper create issued "cam3" as #7
+11:31:31 
+Ini path:
+11:31:31  D3D11 - Device found.
+
+11:31:31 Load bitmap for dataset 1...
+
+11:31:31 Blend image set.
+
+11:31:31 Load bitmap for dataset 1...
+
+11:31:31 Black image set.
+
+11:31:31 Load warp map 1...
+
+11:31:31 Warp map successfully added, new dataset (2) 1280x800 created, data loading skipped.
+
+11:31:31 Load bitmap for dataset 2...
+
+11:31:31 Load bitmap for dataset 2...
+
+11:31:31 LoadVWF: Successfully added 2 datasets to the mappings set.
+
+11:31:31 Mapping Info:
+    Hostname: "localhost"
+  Devicename: "Marits Beamer"
+   SplitInfo: (0,0) of (0,0)
+  Resolution: 1920x1080
+    Position: 1920,0
+
+11:31:31 2D data found in mapping. Using FIXED EYE settings.
+
+11:31:31 left-handedness detected.
+
+11:31:31 INFO: AutoView for channel [cam8] yields:
+optimalRes=[4992, 3000]
+optimalRect=[423, 982, 2668, 2982]
+
+11:31:31 INFO: Output buffer found. Viewport is 2122x1352.
+
+11:31:31 WARNING: Render target size does not match mapping size. This will produce sampling artefacts.
+11:31:31 SUCCESS: DX11-Warper initialized.
+
+11:31:31 Successfully created warper #0
+
+11:31:31 2024/01/29 VIOSOWarpBlend API 1.6.16.87.
+
+11:31:31 D:\Projects (Unity)\8_cameras\Assets\Plugins\Vioso\VIOSOWarpBlend64.dll.
+
+11:31:31 D:\Unity\2022.3.9f1\Editor\Unity.exe.
+
+11:31:31 DX11-Warper "cam2" created. Logging level is 2
+Evaluated parameters from
+D:\Projects (Unity)\8_cameras\Assets\Plugins\Vioso\VIOSOWarpBlend.ini:
+calibFile=Calibration.vwf
+calibIndex=1
+calibSplit=[0,0,0,0]
+bTurnWithView=0
+bDoNotBlend=0
+eyePointProvider=
+eyePointProviderParam=
+eye=[0.00000, 0.00000, 0.00000]
+near=0.15000
+far=1000.00000
+bBicubic=0
+bUseGL110=0
+bPartialInput=0
+splice=0
+trans=[1000.00000, 0.00000, 0.00000, 0.00000; 0.00000, 1000.00000, 0.00000, 0.00000; 0.00000, 0.00000, -1000.00000, 0.00000; 0.00000, 0.00000, 0.00000, 1.00000]
+autoViewC=1.00000;
+bAutoView=1;
+dir=[0.00000, 0.00000, 0.00000]
+fov=[35.00000, 30.00000, 35.00000, 30.00000]
+screen=1.00000
+optimalRes=[0, 0]
+optimalRect=[0, 0, 0, 0]
+port=0
+address=0.0.0.0
+mouseMode=0
+bDoNoBlack=0
+
+11:31:31 Open "D:\Projects (Unity)\8_cameras\Assets\Plugins\Vioso\Calibration.vwf"...
+
+11:31:31 File found and openend.
+
+11:31:31 File contains 6 chunks.
+
+11:31:31 Load warp map 0...
+
+11:31:31 Warp map successfully added, new dataset (1) 1920x1080 created, data loading skipped.
+
+11:31:31 Load bitmap for dataset 1...
+
+11:31:31 Load bitmap for dataset 1...
+
+11:31:31 Load warp map 1...
+
+11:31:31 Warp map successfully loaded, new dataset (2) 1280x800 created.
+
+11:31:31 Load bitmap for dataset 2...
+
+11:31:31 Blend image set.
+
+11:31:31 Load bitmap for dataset 2...
+
+11:31:31 Black image set.
+
+11:31:31 LoadVWF: Successfully added 2 datasets to the mappings set.
+
+11:31:31 Mapping Info:
+    Hostname: "localhost"
+  Devicename: "D4 Optoma WXGA (OTM0550)"
+   SplitInfo: (0,0) of (0,0)
+  Resolution: 1280x800
+    Position: 3840,0
+
+11:31:31 2D data found in mapping. Using FIXED EYE settings.
+
+11:31:31 left-handedness detected.
+
+11:31:31 INFO: AutoView for channel [cam2] yields:
+optimalRes=[2922, 1891]
+optimalRect=[680, 228, 1552, 1038]
+
+11:31:31 INFO: Output buffer found. Viewport is 2122x1352.
+
+11:31:31 WARNING: Render target size does not match mapping size. This will produce sampling artefacts.
+11:31:31 SUCCESS: DX11-Warper initialized.
+
+11:31:31 Successfully created warper #1
+
+11:31:31 2024/01/29 VIOSOWarpBlend API 1.6.16.87.
+
+11:31:31 D:\Projects (Unity)\8_cameras\Assets\Plugins\Vioso\VIOSOWarpBlend64.dll.
+
+11:31:31 D:\Unity\2022.3.9f1\Editor\Unity.exe.
+
+11:31:31 DX11-Warper "cam1" created. Logging level is 2
+Evaluated parameters from
+D:\Projects (Unity)\8_cameras\Assets\Plugins\Vioso\VIOSOWarpBlend.ini:
+calibFile=Calibration.vwf
+calibIndex=0
+calibSplit=[0,0,0,0]
+bTurnWithView=0
+bDoNotBlend=0
+eyePointProvider=
+eyePointProviderParam=
+eye=[0.00000, 0.00000, 0.00000]
+near=0.15000
+far=1000.00000
+bBicubic=0
+bUseGL110=0
+bPartialInput=0
+splice=0
+trans=[1000.00000, 0.00000, 0.00000, 0.00000; 0.00000, 1000.00000, 0.00000, 0.00000; 0.00000, 0.00000, -1000.00000, 0.00000; 0.00000, 0.00000, 0.00000, 1.00000]
+autoViewC=1.00000;
+bAutoView=1;
+dir=[0.00000, 0.00000, 0.00000]
+fov=[35.00000, 30.00000, 35.00000, 30.00000]
+screen=1.00000
+optimalRes=[0, 0]
+optimalRect=[0, 0, 0, 0]
+port=0
+address=0.0.0.0
+mouseMode=0
+bDoNoBlack=0
+
+11:31:31 Open "D:\Projects (Unity)\8_cameras\Assets\Plugins\Vioso\Calibration.vwf"...
+
+11:31:31 File found and openend.
+
+11:31:31 File contains 6 chunks.
+
+11:31:31 Load warp map 0...
+
+11:31:31 Warp map successfully loaded, new dataset (1) 1920x1080 created.
+
+11:31:31 Load bitmap for dataset 1...
+
+11:31:31 Blend image set.
+
+11:31:32 Load bitmap for dataset 1...
+
+11:31:32 Black image set.
+
+11:31:32 Load warp map 1...
+
+11:31:32 Warp map successfully added, new dataset (2) 1280x800 created, data loading skipped.
+
+11:31:32 Load bitmap for dataset 2...
+
+11:31:32 Load bitmap for dataset 2...
+
+11:31:32 LoadVWF: Successfully added 2 datasets to the mappings set.
+
+11:31:32 Mapping Info:
+    Hostname: "localhost"
+  Devicename: "Marits Beamer"
+   SplitInfo: (0,0) of (0,0)
+  Resolution: 1920x1080
+    Position: 1920,0
+
+11:31:32 2D data found in mapping. Using FIXED EYE settings.
+
+11:31:32 left-handedness detected.
+
+11:31:32 INFO: AutoView for channel [cam1] yields:
+optimalRes=[4992, 3000]
+optimalRect=[423, 982, 2668, 2982]
+
+11:31:32 INFO: Output buffer found. Viewport is 2122x1352.
+
+11:31:32 WARNING: Render target size does not match mapping size. This will produce sampling artefacts.
+11:31:32 SUCCESS: DX11-Warper initialized.
+
+11:31:32 Successfully created warper #2
+
+11:31:32 2024/01/29 VIOSOWarpBlend API 1.6.16.87.
+
+11:31:32 D:\Projects (Unity)\8_cameras\Assets\Plugins\Vioso\VIOSOWarpBlend64.dll.
+
+11:31:32 D:\Unity\2022.3.9f1\Editor\Unity.exe.
+
+11:31:32 DX11-Warper "cam6" created. Logging level is 2
+Evaluated parameters from
+D:\Projects (Unity)\8_cameras\Assets\Plugins\Vioso\VIOSOWarpBlend.ini:
+calibFile=Calibration.vwf
+calibIndex=0
+calibSplit=[0,0,0,0]
+bTurnWithView=0
+bDoNotBlend=0
+eyePointProvider=
+eyePointProviderParam=
+eye=[0.00000, 0.00000, 0.00000]
+near=0.15000
+far=1000.00000
+bBicubic=0
+bUseGL110=0
+bPartialInput=0
+splice=0
+trans=[1000.00000, 0.00000, 0.00000, 0.00000; 0.00000, 1000.00000, 0.00000, 0.00000; 0.00000, 0.00000, -1000.00000, 0.00000; 0.00000, 0.00000, 0.00000, 1.00000]
+autoViewC=1.00000;
+bAutoView=1;
+dir=[0.00000, 0.00000, 0.00000]
+fov=[35.00000, 30.00000, 35.00000, 30.00000]
+screen=1.00000
+optimalRes=[0, 0]
+optimalRect=[0, 0, 0, 0]
+port=0
+address=0.0.0.0
+mouseMode=0
+bDoNoBlack=0
+
+11:31:32 Open "D:\Projects (Unity)\8_cameras\Assets\Plugins\Vioso\Calibration.vwf"...
+
+11:31:32 File found and openend.
+
+11:31:32 File contains 6 chunks.
+
+11:31:32 Load warp map 0...
+
+11:31:32 Warp map successfully loaded, new dataset (1) 1920x1080 created.
+
+11:31:32 Load bitmap for dataset 1...
+
+11:31:32 Blend image set.
+
+11:31:32 Load bitmap for dataset 1...
+
+11:31:32 Black image set.
+
+11:31:32 Load warp map 1...
+
+11:31:32 Warp map successfully added, new dataset (2) 1280x800 created, data loading skipped.
+
+11:31:32 Load bitmap for dataset 2...
+
+11:31:32 Load bitmap for dataset 2...
+
+11:31:32 LoadVWF: Successfully added 2 datasets to the mappings set.
+
+11:31:32 Mapping Info:
+    Hostname: "localhost"
+  Devicename: "Marits Beamer"
+   SplitInfo: (0,0) of (0,0)
+  Resolution: 1920x1080
+    Position: 1920,0
+
+11:31:32 2D data found in mapping. Using FIXED EYE settings.
+
+11:31:32 left-handedness detected.
+
+11:31:32 INFO: AutoView for channel [cam6] yields:
+optimalRes=[4992, 3000]
+optimalRect=[423, 982, 2668, 2982]
+
+11:31:32 INFO: Output buffer found. Viewport is 2122x1352.
+
+11:31:32 WARNING: Render target size does not match mapping size. This will produce sampling artefacts.
+11:31:32 SUCCESS: DX11-Warper initialized.
+
+11:31:32 Successfully created warper #3
+
+11:31:32 2024/01/29 VIOSOWarpBlend API 1.6.16.87.
+
+11:31:32 D:\Projects (Unity)\8_cameras\Assets\Plugins\Vioso\VIOSOWarpBlend64.dll.
+
+11:31:32 D:\Unity\2022.3.9f1\Editor\Unity.exe.
+
+11:31:32 DX11-Warper "cam4" created. Logging level is 2
+Evaluated parameters from
+D:\Projects (Unity)\8_cameras\Assets\Plugins\Vioso\VIOSOWarpBlend.ini:
+calibFile=Calibration.vwf
+calibIndex=0
+calibSplit=[0,0,0,0]
+bTurnWithView=0
+bDoNotBlend=0
+eyePointProvider=
+eyePointProviderParam=
+eye=[0.00000, 0.00000, 0.00000]
+near=0.15000
+far=1000.00000
+bBicubic=0
+bUseGL110=0
+bPartialInput=0
+splice=0
+trans=[1000.00000, 0.00000, 0.00000, 0.00000; 0.00000, 1000.00000, 0.00000, 0.00000; 0.00000, 0.00000, -1000.00000, 0.00000; 0.00000, 0.00000, 0.00000, 1.00000]
+autoViewC=1.00000;
+bAutoView=1;
+dir=[0.00000, 0.00000, 0.00000]
+fov=[35.00000, 30.00000, 35.00000, 30.00000]
+screen=1.00000
+optimalRes=[0, 0]
+optimalRect=[0, 0, 0, 0]
+port=0
+address=0.0.0.0
+mouseMode=0
+bDoNoBlack=0
+
+11:31:32 Open "D:\Projects (Unity)\8_cameras\Assets\Plugins\Vioso\Calibration.vwf"...
+
+11:31:32 File found and openend.
+
+11:31:32 File contains 6 chunks.
+
+11:31:32 Load warp map 0...
+
+11:31:32 Warp map successfully loaded, new dataset (1) 1920x1080 created.
+
+11:31:32 Load bitmap for dataset 1...
+
+11:31:32 Blend image set.
+
+11:31:32 Load bitmap for dataset 1...
+
+11:31:32 Black image set.
+
+11:31:32 Load warp map 1...
+
+11:31:32 Warp map successfully added, new dataset (2) 1280x800 created, data loading skipped.
+
+11:31:32 Load bitmap for dataset 2...
+
+11:31:32 Load bitmap for dataset 2...
+
+11:31:32 LoadVWF: Successfully added 2 datasets to the mappings set.
+
+11:31:32 Mapping Info:
+    Hostname: "localhost"
+  Devicename: "Marits Beamer"
+   SplitInfo: (0,0) of (0,0)
+  Resolution: 1920x1080
+    Position: 1920,0
+
+11:31:32 2D data found in mapping. Using FIXED EYE settings.
+
+11:31:32 left-handedness detected.
+
+11:31:32 INFO: AutoView for channel [cam4] yields:
+optimalRes=[4992, 3000]
+optimalRect=[423, 982, 2668, 2982]
+
+11:31:32 INFO: Output buffer found. Viewport is 2122x1352.
+
+11:31:32 WARNING: Render target size does not match mapping size. This will produce sampling artefacts.
+11:31:32 SUCCESS: DX11-Warper initialized.
+
+11:31:32 Successfully created warper #4
+
+11:31:32 2024/01/29 VIOSOWarpBlend API 1.6.16.87.
+
+11:31:32 D:\Projects (Unity)\8_cameras\Assets\Plugins\Vioso\VIOSOWarpBlend64.dll.
+
+11:31:32 D:\Unity\2022.3.9f1\Editor\Unity.exe.
+
+11:31:32 DX11-Warper "cam5" created. Logging level is 2
+Evaluated parameters from
+D:\Projects (Unity)\8_cameras\Assets\Plugins\Vioso\VIOSOWarpBlend.ini:
+calibFile=Calibration.vwf
+calibIndex=0
+calibSplit=[0,0,0,0]
+bTurnWithView=0
+bDoNotBlend=0
+eyePointProvider=
+eyePointProviderParam=
+eye=[0.00000, 0.00000, 0.00000]
+near=0.15000
+far=1000.00000
+bBicubic=0
+bUseGL110=0
+bPartialInput=0
+splice=0
+trans=[1000.00000, 0.00000, 0.00000, 0.00000; 0.00000, 1000.00000, 0.00000, 0.00000; 0.00000, 0.00000, -1000.00000, 0.00000; 0.00000, 0.00000, 0.00000, 1.00000]
+autoViewC=1.00000;
+bAutoView=1;
+dir=[0.00000, 0.00000, 0.00000]
+fov=[35.00000, 30.00000, 35.00000, 30.00000]
+screen=1.00000
+optimalRes=[0, 0]
+optimalRect=[0, 0, 0, 0]
+port=0
+address=0.0.0.0
+mouseMode=0
+bDoNoBlack=0
+
+11:31:32 Open "D:\Projects (Unity)\8_cameras\Assets\Plugins\Vioso\Calibration.vwf"...
+
+11:31:32 File found and openend.
+
+11:31:32 File contains 6 chunks.
+
+11:31:32 Load warp map 0...
+
+11:31:32 Warp map successfully loaded, new dataset (1) 1920x1080 created.
+
+11:31:32 Load bitmap for dataset 1...
+
+11:31:32 Blend image set.
+
+11:31:32 Load bitmap for dataset 1...
+
+11:31:32 Black image set.
+
+11:31:32 Load warp map 1...
+
+11:31:32 Warp map successfully added, new dataset (2) 1280x800 created, data loading skipped.
+
+11:31:32 Load bitmap for dataset 2...
+
+11:31:32 Load bitmap for dataset 2...
+
+11:31:32 LoadVWF: Successfully added 2 datasets to the mappings set.
+
+11:31:32 Mapping Info:
+    Hostname: "localhost"
+  Devicename: "Marits Beamer"
+   SplitInfo: (0,0) of (0,0)
+  Resolution: 1920x1080
+    Position: 1920,0
+
+11:31:32 2D data found in mapping. Using FIXED EYE settings.
+
+11:31:33 left-handedness detected.
+
+11:31:33 INFO: AutoView for channel [cam5] yields:
+optimalRes=[4992, 3000]
+optimalRect=[423, 982, 2668, 2982]
+
+11:31:33 INFO: Output buffer found. Viewport is 2122x1352.
+
+11:31:33 WARNING: Render target size does not match mapping size. This will produce sampling artefacts.
+11:31:33 SUCCESS: DX11-Warper initialized.
+
+11:31:33 Successfully created warper #5
+
+11:31:33 2024/01/29 VIOSOWarpBlend API 1.6.16.87.
+
+11:31:33 D:\Projects (Unity)\8_cameras\Assets\Plugins\Vioso\VIOSOWarpBlend64.dll.
+
+11:31:33 D:\Unity\2022.3.9f1\Editor\Unity.exe.
+
+11:31:33 DX11-Warper "cam7" created. Logging level is 2
+Evaluated parameters from
+D:\Projects (Unity)\8_cameras\Assets\Plugins\Vioso\VIOSOWarpBlend.ini:
+calibFile=Calibration.vwf
+calibIndex=0
+calibSplit=[0,0,0,0]
+bTurnWithView=0
+bDoNotBlend=0
+eyePointProvider=
+eyePointProviderParam=
+eye=[0.00000, 0.00000, 0.00000]
+near=0.15000
+far=1000.00000
+bBicubic=0
+bUseGL110=0
+bPartialInput=0
+splice=0
+trans=[1000.00000, 0.00000, 0.00000, 0.00000; 0.00000, 1000.00000, 0.00000, 0.00000; 0.00000, 0.00000, -1000.00000, 0.00000; 0.00000, 0.00000, 0.00000, 1.00000]
+autoViewC=1.00000;
+bAutoView=1;
+dir=[0.00000, 0.00000, 0.00000]
+fov=[35.00000, 30.00000, 35.00000, 30.00000]
+screen=1.00000
+optimalRes=[0, 0]
+optimalRect=[0, 0, 0, 0]
+port=0
+address=0.0.0.0
+mouseMode=0
+bDoNoBlack=0
+
+11:31:33 Open "D:\Projects (Unity)\8_cameras\Assets\Plugins\Vioso\Calibration.vwf"...
+
+11:31:33 File found and openend.
+
+11:31:33 File contains 6 chunks.
+
+11:31:33 Load warp map 0...
+
+11:31:33 Warp map successfully loaded, new dataset (1) 1920x1080 created.
+
+11:31:33 Load bitmap for dataset 1...
+
+11:31:33 Blend image set.
+
+11:31:33 Load bitmap for dataset 1...
+
+11:31:33 Black image set.
+
+11:31:33 Load warp map 1...
+
+11:31:33 Warp map successfully added, new dataset (2) 1280x800 created, data loading skipped.
+
+11:31:33 Load bitmap for dataset 2...
+
+11:31:33 Load bitmap for dataset 2...
+
+11:31:33 LoadVWF: Successfully added 2 datasets to the mappings set.
+
+11:31:33 Mapping Info:
+    Hostname: "localhost"
+  Devicename: "Marits Beamer"
+   SplitInfo: (0,0) of (0,0)
+  Resolution: 1920x1080
+    Position: 1920,0
+
+11:31:33 2D data found in mapping. Using FIXED EYE settings.
+
+11:31:33 left-handedness detected.
+
+11:31:33 INFO: AutoView for channel [cam7] yields:
+optimalRes=[4992, 3000]
+optimalRect=[423, 982, 2668, 2982]
+
+11:31:33 INFO: Output buffer found. Viewport is 2122x1352.
+
+11:31:33 WARNING: Render target size does not match mapping size. This will produce sampling artefacts.
+11:31:33 SUCCESS: DX11-Warper initialized.
+
+11:31:33 Successfully created warper #6
+
+11:31:33 2024/01/29 VIOSOWarpBlend API 1.6.16.87.
+
+11:31:33 D:\Projects (Unity)\8_cameras\Assets\Plugins\Vioso\VIOSOWarpBlend64.dll.
+
+11:31:33 D:\Unity\2022.3.9f1\Editor\Unity.exe.
+
+11:31:33 DX11-Warper "cam3" created. Logging level is 2
+Evaluated parameters from
+D:\Projects (Unity)\8_cameras\Assets\Plugins\Vioso\VIOSOWarpBlend.ini:
+calibFile=Calibration.vwf
+calibIndex=0
+calibSplit=[0,0,0,0]
+bTurnWithView=0
+bDoNotBlend=0
+eyePointProvider=
+eyePointProviderParam=
+eye=[0.00000, 0.00000, 0.00000]
+near=0.15000
+far=1000.00000
+bBicubic=0
+bUseGL110=0
+bPartialInput=0
+splice=0
+trans=[1000.00000, 0.00000, 0.00000, 0.00000; 0.00000, 1000.00000, 0.00000, 0.00000; 0.00000, 0.00000, -1000.00000, 0.00000; 0.00000, 0.00000, 0.00000, 1.00000]
+autoViewC=1.00000;
+bAutoView=1;
+dir=[0.00000, 0.00000, 0.00000]
+fov=[35.00000, 30.00000, 35.00000, 30.00000]
+screen=1.00000
+optimalRes=[0, 0]
+optimalRect=[0, 0, 0, 0]
+port=0
+address=0.0.0.0
+mouseMode=0
+bDoNoBlack=0
+
+11:31:33 Open "D:\Projects (Unity)\8_cameras\Assets\Plugins\Vioso\Calibration.vwf"...
+
+11:31:33 File found and openend.
+
+11:31:33 File contains 6 chunks.
+
+11:31:33 Load warp map 0...
+
+11:31:33 Warp map successfully loaded, new dataset (1) 1920x1080 created.
+
+11:31:33 Load bitmap for dataset 1...
+
+11:31:33 Blend image set.
+
+11:31:33 Load bitmap for dataset 1...
+
+11:31:33 Black image set.
+
+11:31:33 Load warp map 1...
+
+11:31:33 Warp map successfully added, new dataset (2) 1280x800 created, data loading skipped.
+
+11:31:33 Load bitmap for dataset 2...
+
+11:31:33 Load bitmap for dataset 2...
+
+11:31:33 LoadVWF: Successfully added 2 datasets to the mappings set.
+
+11:31:33 Mapping Info:
+    Hostname: "localhost"
+  Devicename: "Marits Beamer"
+   SplitInfo: (0,0) of (0,0)
+  Resolution: 1920x1080
+    Position: 1920,0
+
+11:31:33 2D data found in mapping. Using FIXED EYE settings.
+
+11:31:33 left-handedness detected.
+
+11:31:33 INFO: AutoView for channel [cam3] yields:
+optimalRes=[4992, 3000]
+optimalRect=[423, 982, 2668, 2982]
+
+11:31:33 INFO: Output buffer found. Viewport is 2122x1352.
+
+11:31:33 WARNING: Render target size does not match mapping size. This will produce sampling artefacts.
+11:31:33 SUCCESS: DX11-Warper initialized.
+
+11:31:33 Successfully created warper #7
+
+11:31:33 WARNING: Render target size does not match mapping size. This will produce sampling artefacts.
+11:31:33 Input texture resource attached.
+11:31:39 INFO: DX11-Warper destroyed.
+
+11:31:39 Warper destroyed.
+11:31:39 INFO: DX11-Warper destroyed.
+
+11:31:39 Warper destroyed.
+11:31:39 INFO: DX11-Warper destroyed.
+
+11:31:39 Warper destroyed.
+11:31:39 INFO: DX11-Warper destroyed.
+
+11:31:39 Warper destroyed.
+11:31:39 INFO: DX11-Warper destroyed.
+
+11:31:39 Warper destroyed.
+11:31:39 INFO: DX11-Warper destroyed.
+
+11:31:39 Warper destroyed.
+11:31:39 INFO: DX11-Warper destroyed.
+
+11:31:39 Warper destroyed.
+11:31:39 INFO: DX11-Warper destroyed.
+
+11:31:39 Warper destroyed.
+11:31:39 Unloading VIOSOWarpBlend
+
+
+ Loading VIOSOWarpBlend ...
+Process location: D:\Unity\2022.3.9f1\Editor\Unity.exe
+Plugin location: D:\Projects (Unity)\8_cameras\Assets\Plugins\Vioso\VIOSO_Plugin64.dll
+Try VIOSOWarpBlend location: D:\Projects (Unity)\8_cameras\Assets\Plugins\Vioso\VIOSOWarpBlend64.dll
+12:33:24 Warper create issued "cam2" as #1
+12:33:24 
+Ini path:
+12:33:24  D3D11 - Device found.
+
+12:33:24 Warper create issued "cam1" as #2
+12:33:24 
+Ini path:
+12:33:24  D3D11 - Device found.
+
+12:33:24 D:\Projects (Unity)\8_cameras\Assets\Plugins\Vioso\VIOSOWarpBlend64.dll.
+
+12:33:24 D:\Unity\2022.3.9f1\Editor\Unity.exe.
+
+12:33:24 DX11-Warper "cam8" created. Logging level is 2
+Evaluated parameters from
+D:\Projects (Unity)\8_cameras\Assets\Plugins\Vioso\VIOSOWarpBlend.ini:
+calibFile=Calibration.vwf
+calibIndex=0
+calibSplit=[0,0,0,0]
+bTurnWithView=0
+bDoNotBlend=0
+eyePointProvider=
+eyePointProviderParam=
+eye=[0.00000, 0.00000, 0.00000]
+near=0.15000
+far=1000.00000
+bBicubic=0
+bUseGL110=0
+bPartialInput=0
+splice=0
+trans=[1000.00000, 0.00000, 0.00000, 0.00000; 0.00000, 1000.00000, 0.00000, 0.00000; 0.00000, 0.00000, -1000.00000, 0.00000; 0.00000, 0.00000, 0.00000, 1.00000]
+autoViewC=1.00000;
+bAutoView=1;
+dir=[0.00000, 0.00000, 0.00000]
+fov=[35.00000, 30.00000, 35.00000, 30.00000]
+screen=1.00000
+optimalRes=[0, 0]
+optimalRect=[0, 0, 0, 0]
+port=0
+address=0.0.0.0
+mouseMode=0
+bDoNoBlack=0
+
+12:33:24 
+Ini path:
+12:33:24  D3D11 - Device found.
+
+12:33:24 Warper create issued "cam4" as #4
+12:33:24 
+Ini path:
+12:33:24  D3D11 - Device found.
+
+12:33:24 File found and openend.
+
+12:33:24 File contains 6 chunks.
+
+12:33:24 Load warp map 0...
+
+12:33:24 
+Ini path:
+12:33:24  D3D11 - Device found.
+
+12:33:24 Warper create issued "cam7" as #6
+12:33:24 
+Ini path:
+12:33:24  D3D11 - Device found.
+
+12:33:24 Warper create issued "cam3" as #7
+12:33:24 
+Ini path:
+12:33:24  D3D11 - Device found.
+
+12:33:24 Warp map successfully loaded, new dataset (1) 1920x1080 created.
+
+12:33:24 Load bitmap for dataset 1...
+
+12:33:24 Blend image set.
+
+12:33:24 Load bitmap for dataset 1...
+
+12:33:24 Black image set.
+
+12:33:24 Load warp map 1...
+
+12:33:24 Warp map successfully added, new dataset (2) 1280x800 created, data loading skipped.
+
+12:33:24 Load bitmap for dataset 2...
+
+12:33:24 Load bitmap for dataset 2...
+
+12:33:24 LoadVWF: Successfully added 2 datasets to the mappings set.
+
+12:33:24 Mapping Info:
+    Hostname: "localhost"
+  Devicename: "Marits Beamer"
+   SplitInfo: (0,0) of (0,0)
+  Resolution: 1920x1080
+    Position: 1920,0
+
+12:33:24 2D data found in mapping. Using FIXED EYE settings.
+
+12:33:24 left-handedness detected.
+
+12:33:24 INFO: AutoView for channel [cam8] yields:
+optimalRes=[4992, 3000]
+optimalRect=[423, 982, 2668, 2982]
+
+12:33:24 INFO: Output buffer found. Viewport is 1897x1229.
+
+12:33:24 WARNING: Render target size does not match mapping size. This will produce sampling artefacts.
+12:33:24 SUCCESS: DX11-Warper initialized.
+
+12:33:24 Successfully created warper #0
+
+12:33:24 2024/01/29 VIOSOWarpBlend API 1.6.16.87.
+
+12:33:24 D:\Projects (Unity)\8_cameras\Assets\Plugins\Vioso\VIOSOWarpBlend64.dll.
+
+12:33:24 D:\Unity\2022.3.9f1\Editor\Unity.exe.
+
+12:33:24 DX11-Warper "cam2" created. Logging level is 2
+Evaluated parameters from
+D:\Projects (Unity)\8_cameras\Assets\Plugins\Vioso\VIOSOWarpBlend.ini:
+calibFile=Calibration.vwf
+calibIndex=1
+calibSplit=[0,0,0,0]
+bTurnWithView=0
+bDoNotBlend=0
+eyePointProvider=
+eyePointProviderParam=
+eye=[0.00000, 0.00000, 0.00000]
+near=0.15000
+far=1000.00000
+bBicubic=0
+bUseGL110=0
+bPartialInput=0
+splice=0
+trans=[1000.00000, 0.00000, 0.00000, 0.00000; 0.00000, 1000.00000, 0.00000, 0.00000; 0.00000, 0.00000, -1000.00000, 0.00000; 0.00000, 0.00000, 0.00000, 1.00000]
+autoViewC=1.00000;
+bAutoView=1;
+dir=[0.00000, 0.00000, 0.00000]
+fov=[35.00000, 30.00000, 35.00000, 30.00000]
+screen=1.00000
+optimalRes=[0, 0]
+optimalRect=[0, 0, 0, 0]
+port=0
+address=0.0.0.0
+mouseMode=0
+bDoNoBlack=0
+
+12:33:24 Open "D:\Projects (Unity)\8_cameras\Assets\Plugins\Vioso\Calibration.vwf"...
+
+12:33:24 File found and openend.
+
+12:33:24 File contains 6 chunks.
+
+12:33:24 Load warp map 0...
+
+12:33:25 Warp map successfully added, new dataset (1) 1920x1080 created, data loading skipped.
+
+12:33:25 Load bitmap for dataset 1...
+
+12:33:25 Load bitmap for dataset 1...
+
+12:33:25 Load warp map 1...
+
+12:33:25 Warp map successfully loaded, new dataset (2) 1280x800 created.
+
+12:33:25 Load bitmap for dataset 2...
+
+12:33:25 Blend image set.
+
+12:33:25 Load bitmap for dataset 2...
+
+12:33:25 Black image set.
+
+12:33:25 LoadVWF: Successfully added 2 datasets to the mappings set.
+
+12:33:25 Mapping Info:
+    Hostname: "localhost"
+  Devicename: "D4 Optoma WXGA (OTM0550)"
+   SplitInfo: (0,0) of (0,0)
+  Resolution: 1280x800
+    Position: 3840,0
+
+12:33:25 2D data found in mapping. Using FIXED EYE settings.
+
+12:33:25 left-handedness detected.
+
+12:33:25 INFO: AutoView for channel [cam2] yields:
+optimalRes=[2922, 1891]
+optimalRect=[680, 228, 1552, 1038]
+
+12:33:25 INFO: Output buffer found. Viewport is 1897x1229.
+
+12:33:25 WARNING: Render target size does not match mapping size. This will produce sampling artefacts.
+12:33:25 SUCCESS: DX11-Warper initialized.
+
+12:33:25 Successfully created warper #1
+
+12:33:25 2024/01/29 VIOSOWarpBlend API 1.6.16.87.
+
+12:33:25 D:\Projects (Unity)\8_cameras\Assets\Plugins\Vioso\VIOSOWarpBlend64.dll.
+
+12:33:25 D:\Unity\2022.3.9f1\Editor\Unity.exe.
+
+12:33:25 DX11-Warper "cam1" created. Logging level is 2
+Evaluated parameters from
+D:\Projects (Unity)\8_cameras\Assets\Plugins\Vioso\VIOSOWarpBlend.ini:
+calibFile=Calibration.vwf
+calibIndex=0
+calibSplit=[0,0,0,0]
+bTurnWithView=0
+bDoNotBlend=0
+eyePointProvider=
+eyePointProviderParam=
+eye=[0.00000, 0.00000, 0.00000]
+near=0.15000
+far=1000.00000
+bBicubic=0
+bUseGL110=0
+bPartialInput=0
+splice=0
+trans=[1000.00000, 0.00000, 0.00000, 0.00000; 0.00000, 1000.00000, 0.00000, 0.00000; 0.00000, 0.00000, -1000.00000, 0.00000; 0.00000, 0.00000, 0.00000, 1.00000]
+autoViewC=1.00000;
+bAutoView=1;
+dir=[0.00000, 0.00000, 0.00000]
+fov=[35.00000, 30.00000, 35.00000, 30.00000]
+screen=1.00000
+optimalRes=[0, 0]
+optimalRect=[0, 0, 0, 0]
+port=0
+address=0.0.0.0
+mouseMode=0
+bDoNoBlack=0
+
+12:33:25 Open "D:\Projects (Unity)\8_cameras\Assets\Plugins\Vioso\Calibration.vwf"...
+
+12:33:25 File found and openend.
+
+12:33:25 File contains 6 chunks.
+
+12:33:25 Load warp map 0...
+
+12:33:25 Warp map successfully loaded, new dataset (1) 1920x1080 created.
+
+12:33:25 Load bitmap for dataset 1...
+
+12:33:25 Blend image set.
+
+12:33:25 Load bitmap for dataset 1...
+
+12:33:25 Black image set.
+
+12:33:25 Load warp map 1...
+
+12:33:25 Warp map successfully added, new dataset (2) 1280x800 created, data loading skipped.
+
+12:33:25 Load bitmap for dataset 2...
+
+12:33:25 Load bitmap for dataset 2...
+
+12:33:25 LoadVWF: Successfully added 2 datasets to the mappings set.
+
+12:33:25 Mapping Info:
+    Hostname: "localhost"
+  Devicename: "Marits Beamer"
+   SplitInfo: (0,0) of (0,0)
+  Resolution: 1920x1080
+    Position: 1920,0
+
+12:33:25 2D data found in mapping. Using FIXED EYE settings.
+
+12:33:25 left-handedness detected.
+
+12:33:25 INFO: AutoView for channel [cam1] yields:
+optimalRes=[4992, 3000]
+optimalRect=[423, 982, 2668, 2982]
+
+12:33:25 INFO: Output buffer found. Viewport is 1897x1229.
+
+12:33:25 WARNING: Render target size does not match mapping size. This will produce sampling artefacts.
+12:33:25 SUCCESS: DX11-Warper initialized.
+
+12:33:25 Successfully created warper #2
+
+12:33:25 2024/01/29 VIOSOWarpBlend API 1.6.16.87.
+
+12:33:25 D:\Projects (Unity)\8_cameras\Assets\Plugins\Vioso\VIOSOWarpBlend64.dll.
+
+12:33:25 D:\Unity\2022.3.9f1\Editor\Unity.exe.
+
+12:33:25 DX11-Warper "cam6" created. Logging level is 2
+Evaluated parameters from
+D:\Projects (Unity)\8_cameras\Assets\Plugins\Vioso\VIOSOWarpBlend.ini:
+calibFile=Calibration.vwf
+calibIndex=0
+calibSplit=[0,0,0,0]
+bTurnWithView=0
+bDoNotBlend=0
+eyePointProvider=
+eyePointProviderParam=
+eye=[0.00000, 0.00000, 0.00000]
+near=0.15000
+far=1000.00000
+bBicubic=0
+bUseGL110=0
+bPartialInput=0
+splice=0
+trans=[1000.00000, 0.00000, 0.00000, 0.00000; 0.00000, 1000.00000, 0.00000, 0.00000; 0.00000, 0.00000, -1000.00000, 0.00000; 0.00000, 0.00000, 0.00000, 1.00000]
+autoViewC=1.00000;
+bAutoView=1;
+dir=[0.00000, 0.00000, 0.00000]
+fov=[35.00000, 30.00000, 35.00000, 30.00000]
+screen=1.00000
+optimalRes=[0, 0]
+optimalRect=[0, 0, 0, 0]
+port=0
+address=0.0.0.0
+mouseMode=0
+bDoNoBlack=0
+
+12:33:25 Open "D:\Projects (Unity)\8_cameras\Assets\Plugins\Vioso\Calibration.vwf"...
+
+12:33:25 File found and openend.
+
+12:33:25 File contains 6 chunks.
+
+12:33:25 Load warp map 0...
+
+12:33:25 Warp map successfully loaded, new dataset (1) 1920x1080 created.
+
+12:33:25 Load bitmap for dataset 1...
+
+12:33:25 Blend image set.
+
+12:33:25 Load bitmap for dataset 1...
+
+12:33:25 Black image set.
+
+12:33:25 Load warp map 1...
+
+12:33:25 Warp map successfully added, new dataset (2) 1280x800 created, data loading skipped.
+
+12:33:25 Load bitmap for dataset 2...
+
+12:33:25 Load bitmap for dataset 2...
+
+12:33:25 LoadVWF: Successfully added 2 datasets to the mappings set.
+
+12:33:25 Mapping Info:
+    Hostname: "localhost"
+  Devicename: "Marits Beamer"
+   SplitInfo: (0,0) of (0,0)
+  Resolution: 1920x1080
+    Position: 1920,0
+
+12:33:25 2D data found in mapping. Using FIXED EYE settings.
+
+12:33:25 left-handedness detected.
+
+12:33:25 INFO: AutoView for channel [cam6] yields:
+optimalRes=[4992, 3000]
+optimalRect=[423, 982, 2668, 2982]
+
+12:33:25 INFO: Output buffer found. Viewport is 1897x1229.
+
+12:33:25 WARNING: Render target size does not match mapping size. This will produce sampling artefacts.
+12:33:25 SUCCESS: DX11-Warper initialized.
+
+12:33:25 Successfully created warper #3
+
+12:33:25 2024/01/29 VIOSOWarpBlend API 1.6.16.87.
+
+12:33:25 D:\Projects (Unity)\8_cameras\Assets\Plugins\Vioso\VIOSOWarpBlend64.dll.
+
+12:33:25 D:\Unity\2022.3.9f1\Editor\Unity.exe.
+
+12:33:26 DX11-Warper "cam4" created. Logging level is 2
+Evaluated parameters from
+D:\Projects (Unity)\8_cameras\Assets\Plugins\Vioso\VIOSOWarpBlend.ini:
+calibFile=Calibration.vwf
+calibIndex=0
+calibSplit=[0,0,0,0]
+bTurnWithView=0
+bDoNotBlend=0
+eyePointProvider=
+eyePointProviderParam=
+eye=[0.00000, 0.00000, 0.00000]
+near=0.15000
+far=1000.00000
+bBicubic=0
+bUseGL110=0
+bPartialInput=0
+splice=0
+trans=[1000.00000, 0.00000, 0.00000, 0.00000; 0.00000, 1000.00000, 0.00000, 0.00000; 0.00000, 0.00000, -1000.00000, 0.00000; 0.00000, 0.00000, 0.00000, 1.00000]
+autoViewC=1.00000;
+bAutoView=1;
+dir=[0.00000, 0.00000, 0.00000]
+fov=[35.00000, 30.00000, 35.00000, 30.00000]
+screen=1.00000
+optimalRes=[0, 0]
+optimalRect=[0, 0, 0, 0]
+port=0
+address=0.0.0.0
+mouseMode=0
+bDoNoBlack=0
+
+12:33:26 Open "D:\Projects (Unity)\8_cameras\Assets\Plugins\Vioso\Calibration.vwf"...
+
+12:33:26 File found and openend.
+
+12:33:26 File contains 6 chunks.
+
+12:33:26 Load warp map 0...
+
+12:33:26 Warp map successfully loaded, new dataset (1) 1920x1080 created.
+
+12:33:26 Load bitmap for dataset 1...
+
+12:33:26 Blend image set.
+
+12:33:26 Load bitmap for dataset 1...
+
+12:33:26 Black image set.
+
+12:33:26 Load warp map 1...
+
+12:33:26 Warp map successfully added, new dataset (2) 1280x800 created, data loading skipped.
+
+12:33:26 Load bitmap for dataset 2...
+
+12:33:26 Load bitmap for dataset 2...
+
+12:33:26 LoadVWF: Successfully added 2 datasets to the mappings set.
+
+12:33:26 Mapping Info:
+    Hostname: "localhost"
+  Devicename: "Marits Beamer"
+   SplitInfo: (0,0) of (0,0)
+  Resolution: 1920x1080
+    Position: 1920,0
+
+12:33:26 2D data found in mapping. Using FIXED EYE settings.
+
+12:33:26 left-handedness detected.
+
+12:33:26 INFO: AutoView for channel [cam4] yields:
+optimalRes=[4992, 3000]
+optimalRect=[423, 982, 2668, 2982]
+
+12:33:26 INFO: Output buffer found. Viewport is 1897x1229.
+
+12:33:26 WARNING: Render target size does not match mapping size. This will produce sampling artefacts.
+12:33:26 SUCCESS: DX11-Warper initialized.
+
+12:33:26 Successfully created warper #4
+
+12:33:26 2024/01/29 VIOSOWarpBlend API 1.6.16.87.
+
+12:33:26 D:\Projects (Unity)\8_cameras\Assets\Plugins\Vioso\VIOSOWarpBlend64.dll.
+
+12:33:26 D:\Unity\2022.3.9f1\Editor\Unity.exe.
+
+12:33:26 DX11-Warper "cam5" created. Logging level is 2
+Evaluated parameters from
+D:\Projects (Unity)\8_cameras\Assets\Plugins\Vioso\VIOSOWarpBlend.ini:
+calibFile=Calibration.vwf
+calibIndex=0
+calibSplit=[0,0,0,0]
+bTurnWithView=0
+bDoNotBlend=0
+eyePointProvider=
+eyePointProviderParam=
+eye=[0.00000, 0.00000, 0.00000]
+near=0.15000
+far=1000.00000
+bBicubic=0
+bUseGL110=0
+bPartialInput=0
+splice=0
+trans=[1000.00000, 0.00000, 0.00000, 0.00000; 0.00000, 1000.00000, 0.00000, 0.00000; 0.00000, 0.00000, -1000.00000, 0.00000; 0.00000, 0.00000, 0.00000, 1.00000]
+autoViewC=1.00000;
+bAutoView=1;
+dir=[0.00000, 0.00000, 0.00000]
+fov=[35.00000, 30.00000, 35.00000, 30.00000]
+screen=1.00000
+optimalRes=[0, 0]
+optimalRect=[0, 0, 0, 0]
+port=0
+address=0.0.0.0
+mouseMode=0
+bDoNoBlack=0
+
+12:33:26 Open "D:\Projects (Unity)\8_cameras\Assets\Plugins\Vioso\Calibration.vwf"...
+
+12:33:26 File found and openend.
+
+12:33:26 File contains 6 chunks.
+
+12:33:26 Load warp map 0...
+
+12:33:26 Warp map successfully loaded, new dataset (1) 1920x1080 created.
+
+12:33:26 Load bitmap for dataset 1...
+
+12:33:26 Blend image set.
+
+12:33:26 Load bitmap for dataset 1...
+
+12:33:26 Black image set.
+
+12:33:26 Load warp map 1...
+
+12:33:26 Warp map successfully added, new dataset (2) 1280x800 created, data loading skipped.
+
+12:33:26 Load bitmap for dataset 2...
+
+12:33:26 Load bitmap for dataset 2...
+
+12:33:26 LoadVWF: Successfully added 2 datasets to the mappings set.
+
+12:33:26 Mapping Info:
+    Hostname: "localhost"
+  Devicename: "Marits Beamer"
+   SplitInfo: (0,0) of (0,0)
+  Resolution: 1920x1080
+    Position: 1920,0
+
+12:33:26 2D data found in mapping. Using FIXED EYE settings.
+
+12:33:26 left-handedness detected.
+
+12:33:26 INFO: AutoView for channel [cam5] yields:
+optimalRes=[4992, 3000]
+optimalRect=[423, 982, 2668, 2982]
+
+12:33:26 INFO: Output buffer found. Viewport is 1897x1229.
+
+12:33:26 WARNING: Render target size does not match mapping size. This will produce sampling artefacts.
+12:33:26 SUCCESS: DX11-Warper initialized.
+
+12:33:26 Successfully created warper #5
+
+12:33:26 2024/01/29 VIOSOWarpBlend API 1.6.16.87.
+
+12:33:26 D:\Projects (Unity)\8_cameras\Assets\Plugins\Vioso\VIOSOWarpBlend64.dll.
+
+12:33:26 D:\Unity\2022.3.9f1\Editor\Unity.exe.
+
+12:33:26 DX11-Warper "cam7" created. Logging level is 2
+Evaluated parameters from
+D:\Projects (Unity)\8_cameras\Assets\Plugins\Vioso\VIOSOWarpBlend.ini:
+calibFile=Calibration.vwf
+calibIndex=0
+calibSplit=[0,0,0,0]
+bTurnWithView=0
+bDoNotBlend=0
+eyePointProvider=
+eyePointProviderParam=
+eye=[0.00000, 0.00000, 0.00000]
+near=0.15000
+far=1000.00000
+bBicubic=0
+bUseGL110=0
+bPartialInput=0
+splice=0
+trans=[1000.00000, 0.00000, 0.00000, 0.00000; 0.00000, 1000.00000, 0.00000, 0.00000; 0.00000, 0.00000, -1000.00000, 0.00000; 0.00000, 0.00000, 0.00000, 1.00000]
+autoViewC=1.00000;
+bAutoView=1;
+dir=[0.00000, 0.00000, 0.00000]
+fov=[35.00000, 30.00000, 35.00000, 30.00000]
+screen=1.00000
+optimalRes=[0, 0]
+optimalRect=[0, 0, 0, 0]
+port=0
+address=0.0.0.0
+mouseMode=0
+bDoNoBlack=0
+
+12:33:26 Open "D:\Projects (Unity)\8_cameras\Assets\Plugins\Vioso\Calibration.vwf"...
+
+12:33:26 File found and openend.
+
+12:33:26 File contains 6 chunks.
+
+12:33:26 Load warp map 0...
+
+12:33:26 Warp map successfully loaded, new dataset (1) 1920x1080 created.
+
+12:33:26 Load bitmap for dataset 1...
+
+12:33:26 Blend image set.
+
+12:33:26 Load bitmap for dataset 1...
+
+12:33:26 Black image set.
+
+12:33:26 Load warp map 1...
+
+12:33:26 Warp map successfully added, new dataset (2) 1280x800 created, data loading skipped.
+
+12:33:26 Load bitmap for dataset 2...
+
+12:33:26 Load bitmap for dataset 2...
+
+12:33:26 LoadVWF: Successfully added 2 datasets to the mappings set.
+
+12:33:26 Mapping Info:
+    Hostname: "localhost"
+  Devicename: "Marits Beamer"
+   SplitInfo: (0,0) of (0,0)
+  Resolution: 1920x1080
+    Position: 1920,0
+
+12:33:26 2D data found in mapping. Using FIXED EYE settings.
+
+12:33:26 left-handedness detected.
+
+12:33:26 INFO: AutoView for channel [cam7] yields:
+optimalRes=[4992, 3000]
+optimalRect=[423, 982, 2668, 2982]
+
+12:33:26 INFO: Output buffer found. Viewport is 1897x1229.
+
+12:33:26 WARNING: Render target size does not match mapping size. This will produce sampling artefacts.
+12:33:26 SUCCESS: DX11-Warper initialized.
+
+12:33:26 Successfully created warper #6
+
+12:33:26 2024/01/29 VIOSOWarpBlend API 1.6.16.87.
+
+12:33:26 D:\Projects (Unity)\8_cameras\Assets\Plugins\Vioso\VIOSOWarpBlend64.dll.
+
+12:33:26 D:\Unity\2022.3.9f1\Editor\Unity.exe.
+
+12:33:26 DX11-Warper "cam3" created. Logging level is 2
+Evaluated parameters from
+D:\Projects (Unity)\8_cameras\Assets\Plugins\Vioso\VIOSOWarpBlend.ini:
+calibFile=Calibration.vwf
+calibIndex=0
+calibSplit=[0,0,0,0]
+bTurnWithView=0
+bDoNotBlend=0
+eyePointProvider=
+eyePointProviderParam=
+eye=[0.00000, 0.00000, 0.00000]
+near=0.15000
+far=1000.00000
+bBicubic=0
+bUseGL110=0
+bPartialInput=0
+splice=0
+trans=[1000.00000, 0.00000, 0.00000, 0.00000; 0.00000, 1000.00000, 0.00000, 0.00000; 0.00000, 0.00000, -1000.00000, 0.00000; 0.00000, 0.00000, 0.00000, 1.00000]
+autoViewC=1.00000;
+bAutoView=1;
+dir=[0.00000, 0.00000, 0.00000]
+fov=[35.00000, 30.00000, 35.00000, 30.00000]
+screen=1.00000
+optimalRes=[0, 0]
+optimalRect=[0, 0, 0, 0]
+port=0
+address=0.0.0.0
+mouseMode=0
+bDoNoBlack=0
+
+12:33:26 Open "D:\Projects (Unity)\8_cameras\Assets\Plugins\Vioso\Calibration.vwf"...
+
+12:33:26 File found and openend.
+
+12:33:26 File contains 6 chunks.
+
+12:33:26 Load warp map 0...
+
+12:33:27 Warp map successfully loaded, new dataset (1) 1920x1080 created.
+
+12:33:27 Load bitmap for dataset 1...
+
+12:33:27 Blend image set.
+
+12:33:27 Load bitmap for dataset 1...
+
+12:33:27 Black image set.
+
+12:33:27 Load warp map 1...
+
+12:33:27 Warp map successfully added, new dataset (2) 1280x800 created, data loading skipped.
+
+12:33:27 Load bitmap for dataset 2...
+
+12:33:27 Load bitmap for dataset 2...
+
+12:33:27 LoadVWF: Successfully added 2 datasets to the mappings set.
+
+12:33:27 Mapping Info:
+    Hostname: "localhost"
+  Devicename: "Marits Beamer"
+   SplitInfo: (0,0) of (0,0)
+  Resolution: 1920x1080
+    Position: 1920,0
+
+12:33:27 2D data found in mapping. Using FIXED EYE settings.
+
+12:33:27 left-handedness detected.
+
+12:33:27 INFO: AutoView for channel [cam3] yields:
+optimalRes=[4992, 3000]
+optimalRect=[423, 982, 2668, 2982]
+
+12:33:27 INFO: Output buffer found. Viewport is 1897x1229.
+
+12:33:27 WARNING: Render target size does not match mapping size. This will produce sampling artefacts.
+12:33:27 SUCCESS: DX11-Warper initialized.
+
+12:33:27 Successfully created warper #7
+
+12:33:27 WARNING: Render target size does not match mapping size. This will produce sampling artefacts.
+12:33:27 Input texture resource attached.
+12:33:28 INFO: DX11-Warper destroyed.
+
+12:33:28 Warper destroyed.
+12:33:28 INFO: DX11-Warper destroyed.
+
+12:33:28 Warper destroyed.
+12:33:28 INFO: DX11-Warper destroyed.
+
+12:33:29 Warper destroyed.
+12:33:29 INFO: DX11-Warper destroyed.
+
+12:33:29 Warper destroyed.
+12:33:29 INFO: DX11-Warper destroyed.
+
+12:33:29 Warper destroyed.
+12:33:29 INFO: DX11-Warper destroyed.
+
+12:33:29 Warper destroyed.
+12:33:29 INFO: DX11-Warper destroyed.
+
+12:33:29 Warper destroyed.
+12:33:29 INFO: DX11-Warper destroyed.
+
+12:33:29 Warper destroyed.
+12:33:29 Unloading VIOSOWarpBlend
+
+VIOSO Unity Plugin OnUnityGfxDeviceEventShutdown
+VIOSO Unity Plugin OnUnityGfxDeviceEventShutdown
+VIOSO Unity Plugin to unload
