@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class FrustumControl : MonoBehaviour
@@ -24,8 +25,21 @@ public class FrustumControl : MonoBehaviour
         inputDir_P.onEndEdit.AddListener(delegate { UpdateDir(); });
         inputDir_Y.onEndEdit.AddListener(delegate { UpdateDir(); });
         inputDir_R.onEndEdit.AddListener(delegate { UpdateDir(); });
-        
-        //run delayed start next
+
+        //Lock frustum buttons in VIOSO mode: read-only
+        if (SceneManager.GetActiveScene().buildIndex != 0) 
+        {
+            inputFOV_L.interactable = false;
+            inputFOV_R.interactable = false;
+            inputFOV_T.interactable = false;
+            inputFOV_B.interactable = false; 
+            inputDir_P.interactable = false;
+            inputDir_Y.interactable = false;
+            inputDir_R.interactable = false;
+
+        }
+
+        //run delayed start next to read the views
         StartCoroutine(DelayedStart());
 
     }
