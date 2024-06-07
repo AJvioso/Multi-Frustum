@@ -5,6 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class UIButtons : MonoBehaviour
 {
+
     /// <summary>
     /// Toggle function used by UI buttons for several objects
     /// </summary>
@@ -30,5 +31,18 @@ public class UIButtons : MonoBehaviour
     {
         int currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
         SceneManager.LoadScene(currentSceneIndex);
+    }
+
+
+    /// <summary>
+    /// switch between two scenes: Manual frustun & VIOSO plugin
+    /// </summary>
+    public void ToggleVIOSO()
+    {
+        if (SceneManager.GetActiveScene().buildIndex == 0) { SceneManager.LoadScene("VIOSO_Frustum"); }
+        else
+            SceneManager.LoadScene("Manual_Frustum");
+
+
     }
 }

@@ -5,10 +5,10 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
-    path: Assets/Scenes/SampleScene.unity
-    guid: 9fc0d4010bbf28b4594072e72b8655ab
   - enabled: 1
-    path: Assets/Scenes/ManualFrustum.unity
+    path: Assets/Scenes/Manual_Frustum.unity
     guid: 3a31bdc3fe3eb9940bec19d328a04897
+  - enabled: 1
+    path: Assets/Scenes/VIOSO_Frustum.unity
+    guid: d09597804860b9249980285a66b1ddbe
   m_configObjects: {}

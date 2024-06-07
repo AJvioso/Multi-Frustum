@@ -4282,9 +4282,9 @@ MonoBehaviour:
   onValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 659311672}
-        m_TargetAssemblyTypeName: ActivateMultiDisplay, Assembly-CSharp
-        m_MethodName: ToggleViosoPlugin
+      - m_Target: {fileID: 659311670}
+        m_TargetAssemblyTypeName: UIButtons, Assembly-CSharp
+        m_MethodName: ToggleVIOSO
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

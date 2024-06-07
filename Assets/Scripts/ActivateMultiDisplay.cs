@@ -10,7 +10,7 @@ public class ActivateMultiDisplay : MonoBehaviour
     private string targetCamName;
     private GameObject cameraEntry;
     private List<GameObject> activeCamerasList= new List<GameObject>();
-    private bool bViosoActive = false;
+
 
     //activate GPU displays and list them as cameras
     void Start()
@@ -31,29 +31,7 @@ public class ActivateMultiDisplay : MonoBehaviour
         }
     }
 
-    public void ToggleViosoPlugin()
-    {
-        bViosoActive = !bViosoActive;
 
-        if (bViosoActive) //enable VIOSO
-        {
-            foreach (GameObject cameraObject in activeCamerasList)
-            {
-                cameraObject.GetComponent<VIOSOCamera>().enabled = true;
-            }
-            cameraEntry.GetComponent<FrustumControl>().WriteCameraViewToUI();
-        }
-        else
-        {
-            foreach (GameObject cameraObject in activeCamerasList)
-            {
-                cameraObject.GetComponent<VIOSOCamera>().enabled = false;
-            }
-            cameraEntry.GetComponent<FrustumControl>().WriteCameraViewToUI();
-        }
-
-
-    }
 
 
 }
