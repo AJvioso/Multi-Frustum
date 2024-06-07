@@ -1658,6 +1658,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 491eb1c5d27475c47a9d2a00db82ec97, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cameraList:
+  - {fileID: 963194225}
+  - {fileID: 963194225}
+  - {fileID: 550669281}
+  - {fileID: 1912516562}
+  - {fileID: 1361865397}
+  - {fileID: 1688407507}
+  - {fileID: 1292083147}
+  - {fileID: 1784239471}
+  - {fileID: 259475875}
   cameraParamsPrefab: {fileID: 6653705977246329853, guid: e62d83cddd425ef488757b006b1d2477, type: 3}
   CanvasListParent: {fileID: 657559720}
 --- !u!1 &663834747

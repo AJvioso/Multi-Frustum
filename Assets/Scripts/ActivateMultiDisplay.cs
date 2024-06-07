@@ -5,6 +5,7 @@ using UnityEngine;
 
 public class ActivateMultiDisplay : MonoBehaviour
 {
+    public GameObject[] cameraList;
     public GameObject cameraParamsPrefab;
     public Transform CanvasListParent;
     private string targetCamName;
@@ -12,21 +13,20 @@ public class ActivateMultiDisplay : MonoBehaviour
     private List<GameObject> activeCamerasList= new List<GameObject>();
 
 
-    //activate GPU displays and list them as cameras
+    //activate GPU displays and corresponding cameras for them
     void Start()
     {
         for (int i = 0; i < Display.displays.Length; i++)
         {
+            //activate display and camera
             Display.displays[i].Activate();
-            //Store a camera for each display
-            GameObject camObj = GameObject.Find(String.Concat("cam", (i + 1)));
-            activeCamerasList.Add(camObj);
+            cameraList[i+1].SetActive(true);
             
             // Instantiate a UI camera entry and link it to a unity camera 
             cameraEntry=Instantiate(cameraParamsPrefab, Vector3.zero, Quaternion.identity, CanvasListParent);
-            targetCamName =camObj.name;
+            targetCamName = cameraList[i + 1].name;
             cameraEntry.GetComponent<FrustumControl>().cameraName.text=targetCamName;
-            cameraEntry.GetComponent<FrustumControl>().targetCamera= camObj.GetComponent<Camera>();
+            cameraEntry.GetComponent<FrustumControl>().targetCamera= cameraList[i+1].GetComponent<Camera>();
 
         }
     }
