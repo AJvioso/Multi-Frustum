@@ -73,10 +73,10 @@ public class FrustumControl : MonoBehaviour
     /// </summary>
     public void SetFrustum(Camera cam, float left, float right, float bottom, float top)
     {
-        leftDist = -1f * MathF.Tan(left * Mathf.Deg2Rad);
-        rightDist = 1f * MathF.Tan(right * Mathf.Deg2Rad);
-        bottomDist = -1f * MathF.Tan(bottom * Mathf.Deg2Rad);
-        topDist = 1f * MathF.Tan(top * Mathf.Deg2Rad);
+        leftDist    = -1f * MathF.Tan(left * Mathf.Deg2Rad);
+        rightDist   = 1f * MathF.Tan(right * Mathf.Deg2Rad);
+        bottomDist  = -1f * MathF.Tan(bottom * Mathf.Deg2Rad);
+        topDist     = 1f * MathF.Tan(top * Mathf.Deg2Rad);
 
         Matrix4x4 m = PerspectiveOffCenter(leftDist, rightDist, bottomDist, topDist, 1f, 1000f);
         cam.projectionMatrix = m;
@@ -119,16 +119,16 @@ public class FrustumControl : MonoBehaviour
 
         float near = 1f;
 
-        float left = -near * (projectionMatrix[0, 2] + 1) / projectionMatrix[0, 0];
-        float right = near * (1 - projectionMatrix[0, 2]) / projectionMatrix[0, 0];
-        float bottom = -near * (projectionMatrix[1, 2] + 1) / projectionMatrix[1, 1];
-        float top = near * (1 - projectionMatrix[1, 2]) / projectionMatrix[1, 1];
+        float left      = -near * (projectionMatrix[0, 2] + 1) / projectionMatrix[0, 0];
+        float right     = near * (1 - projectionMatrix[0, 2]) / projectionMatrix[0, 0];
+        float bottom    = -near * (projectionMatrix[1, 2] + 1) / projectionMatrix[1, 1];
+        float top       = near * (1 - projectionMatrix[1, 2]) / projectionMatrix[1, 1];
 
         // Calculate FOVs in degrees
-        float leftFOV = Mathf.Atan(left / near) * Mathf.Rad2Deg *-1f; // all angles positive in UI
-        float rightFOV = Mathf.Atan(right / near) * Mathf.Rad2Deg ;
+        float leftFOV   = Mathf.Atan(left / near) * Mathf.Rad2Deg *-1f; // all angles positive in UI
+        float rightFOV  = Mathf.Atan(right / near) * Mathf.Rad2Deg ;
         float bottomFOV = Mathf.Atan(bottom / near) * Mathf.Rad2Deg *-1f;
-        float topFOV = Mathf.Atan(top / near) * Mathf.Rad2Deg ;
+        float topFOV    = Mathf.Atan(top / near) * Mathf.Rad2Deg ;
 
         // Write to UI
         inputFOV_B.text = bottomFOV.ToString();

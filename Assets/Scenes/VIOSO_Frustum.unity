@@ -17,7 +17,7 @@ RenderSettings:
   m_Fog: 0
   m_FogColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
   m_FogMode: 3
-  m_FogDensity: 0.01
+  m_FogDensity: 0.12
   m_LinearFogStart: 0
   m_LinearFogEnd: 300
   m_AmbientSkyColor: {r: 0.212, g: 0.227, b: 0.259, a: 1}
@@ -25,7 +25,7 @@ RenderSettings:
   m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
   m_AmbientIntensity: 0.65
   m_AmbientMode: 0
-  m_SubtractiveShadowColor: {r: 0.4454877, g: 0.50897545, b: 0.6698113, a: 1}
+  m_SubtractiveShadowColor: {r: 1, g: 1, b: 1, a: 1}
   m_SkyboxMaterial: {fileID: 2100000, guid: 851a6cbb522e3104996502ef967d8d43, type: 2}
   m_HaloStrength: 0.5
   m_FlareStrength: 1
@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.84135187, g: 0.8682836, b: 0.84119606, a: 1}
+  m_IndirectSpecularColor: {r: 0.5500532, g: 0.57076544, b: 0.5619563, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -97,8 +97,8 @@ LightmapSettings:
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
-  m_LightingDataAsset: {fileID: 0}
-  m_LightingSettings: {fileID: 0}
+  m_LightingDataAsset: {fileID: 112000000, guid: 1a4df05c6a84a7d4f9d754195837551a, type: 2}
+  m_LightingSettings: {fileID: 4890085278179872738, guid: 3d6cb8515e4d3434bb1a0412da400bd7, type: 2}
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -668,7 +668,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 691280d913fa63a48bdaf91aee0a18fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  staticEyepoint: 1
+  staticEyepoint: 0
   customIniPath: 
 --- !u!1 &297047024
 GameObject:
@@ -1362,7 +1362,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 691280d913fa63a48bdaf91aee0a18fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  staticEyepoint: 1
+  staticEyepoint: 0
   customIniPath: 
 --- !u!1 &557732529
 GameObject:
@@ -1856,8 +1856,8 @@ Light:
   serializedVersion: 10
   m_Type: 1
   m_Shape: 0
-  m_Color: {r: 1, g: 0.95686275, b: 0.8392157, a: 1}
-  m_Intensity: 1
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Intensity: 1.5
   m_Range: 10
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -1915,13 +1915,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 705507993}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.40821788, y: -0.23456968, z: 0.10938163, w: 0.8754261}
-  m_LocalPosition: {x: 0, y: 3, z: 0}
+  m_LocalRotation: {x: 0.5126203, y: 0.16200425, z: -0.09917911, w: 0.83734024}
+  m_LocalPosition: {x: 0, y: 7.69, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+  m_LocalEulerAnglesHint: {x: 62.95, y: 21.9, z: 0}
 --- !u!1 &754038914
 GameObject:
   m_ObjectHideFlags: 0
@@ -2485,7 +2485,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!20 &963194227
 Camera:
   m_ObjectHideFlags: 0
@@ -2564,7 +2564,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 691280d913fa63a48bdaf91aee0a18fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  staticEyepoint: 1
+  staticEyepoint: 0
   customIniPath: 
 --- !u!1 &969792012
 GameObject:
@@ -3429,7 +3429,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 691280d913fa63a48bdaf91aee0a18fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  staticEyepoint: 1
+  staticEyepoint: 0
   customIniPath: 
 --- !u!1 &1361865397
 GameObject:
@@ -3527,7 +3527,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 691280d913fa63a48bdaf91aee0a18fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  staticEyepoint: 1
+  staticEyepoint: 0
   customIniPath: 
 --- !u!1 &1372493513
 GameObject:
@@ -4081,7 +4081,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 691280d913fa63a48bdaf91aee0a18fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  staticEyepoint: 1
+  staticEyepoint: 0
   customIniPath: 
 --- !u!1 &1719932778
 GameObject:
@@ -4417,7 +4417,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 691280d913fa63a48bdaf91aee0a18fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  staticEyepoint: 1
+  staticEyepoint: 0
   customIniPath: 
 --- !u!1 &1787319250
 GameObject:
@@ -4771,7 +4771,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 691280d913fa63a48bdaf91aee0a18fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  staticEyepoint: 1
+  staticEyepoint: 0
   customIniPath: 
 --- !u!1 &1944342902
 GameObject:
