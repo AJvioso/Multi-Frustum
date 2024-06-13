@@ -119,10 +119,10 @@ public class FrustumControl : MonoBehaviour
 
         float near = 1f;
 
-        float left      = -near * (projectionMatrix[0, 2] + 1) / projectionMatrix[0, 0];
-        float right     = near * (1 - projectionMatrix[0, 2]) / projectionMatrix[0, 0];
-        float bottom    = -near * (projectionMatrix[1, 2] + 1) / projectionMatrix[1, 1];
-        float top       = near * (1 - projectionMatrix[1, 2]) / projectionMatrix[1, 1];
+        float right      = -near * (projectionMatrix[0, 2] + 1) / projectionMatrix[0, 0];
+        float left     = near * (1 - projectionMatrix[0, 2]) / projectionMatrix[0, 0];
+        float top    = -near * (projectionMatrix[1, 2] + 1) / projectionMatrix[1, 1];
+        float bottom       = near * (1 - projectionMatrix[1, 2]) / projectionMatrix[1, 1];
 
         // Calculate FOVs in degrees
         float leftFOV   = Mathf.Atan(left / near) * Mathf.Rad2Deg *-1f; // all angles positive in UI
