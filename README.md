@@ -1,6 +1,12 @@
 # Multi-frustum
  Test multiple display outputs with frustum inputs or VIOSO API view calculation.
 
+>[!IMPORTANT]  
+> Repository moved to bitbucket: https://bitbucket.org/vioso/multi-frustum-test-tool/src/master/
+> 
+> Release from v1.2+ will be there: https://bitbucket.org/vioso/multi-frustum-test-tool/downloads
+
+
  # How to use
 - [Download the executable build from the releases](https://github.com/AJvioso/Multi-Frustum/releases)
 - Run on the target machine(s). All windows displays are activated, and a camera is assigned to each.
